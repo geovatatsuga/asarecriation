@@ -1,0 +1,56 @@
+# RTK
+# Mantém o binário pré-compilado em .rtk-bin/rtk.exe, mas ignora artefatos de build/install.
+.rtk-download/
+.rtk-install/
+.rtk-target/
+.rtk-cache/
+.rtk-bin/.crates.toml
+.rtk-bin/.crates2.json
+
+# Testes temporários e caches locais
+.tmp_tests/
+tmp/
+*.tmp
+*.log
+*.cache
+skills_summary.txt
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+nul
+flashplayer_32_sa_debug.exe
+
+# Flash/SWF gerados, backups e dumps de assets brutos
+backup_swfs/
+backup_cleanup/
+assets_raw/
+*.swf
+*.swf.before_*
+*.swf.after_*
+*.swf.bak
+*_patched*.swf
+
+# Recursos/dependências muito grandes ou regeneráveis
+server_py/game_resources/
+server_py/sql_media.Path/
+server_py/data/
+server_py/logs/
+new_game/third_party/
+new_game/asset_lab/
+
+# Python/Node/Rust genéricos
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+target/

@@ -1,0 +1,177 @@
+handlers\shortcut_handler.py:9:    def get_handlers(cls) -> Dict[int, str]:
+handlers\shortcut_handler.py:10:        return {
+handlers\shortcut_handler.py:11:            cls.WORLD_CLIENT_SAVE_CONFIG_NOTIFY: 'handle_save_config',
+handlers\player_handler.py:14:    def get_handlers(cls) -> Dict[int, str]:
+handlers\player_handler.py:15:        return {
+handlers\player_handler.py:16:            PlayerCommandCode.PLAYER_ASSIGN_ATTR_REQUEST: "handle_assign_attr",
+handlers\player_handler.py:17:            PlayerCommandCode.PLAYER_REBIRTH_REQUEST: "handle_rebirth",
+handlers\player_handler.py:18:            PlayerCommandCode.PLAYER_SIT_REQUEST: "handle_sit",
+handlers\player_handler.py:78:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_EXT_ATTR_INT_CHANGE_NOTIFY))
+handlers\player_handler.py:116:            self.send_packet(notify.build(PlayerCommandCode.PLAYER_REBIRTH_NOTIFY))
+handlers\player_handler.py:125:            self.send_packet(hp_notify.build(550))
+handlers\player_handler.py:131:            self.send_packet(mp_notify.build(552))
+handlers\player_handler.py:156:            self.send_packet(notify.build(PlayerCommandCode.PLAYER_SIT_CHECK_NOTIFY))
+servers\world_server.py:523:                self.send_packet(builder.build(PlayerCommandCode.PLAYER_ENTER_WORLD_ANSWER))
+servers\world_server.py:625:            packet = builder.build(PlayerCommandCode.PLAYER_ENTER_WORLD_ANSWER)
+servers\world_server.py:670:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_VIEW_MAP_ANSWER))
+servers\world_server.py:720:                self.send_packet(builder.build(658))
+servers\world_server.py:730:        self.send_packet(builder.build(5377))
+servers\world_server.py:749:        self.send_packet(builder.build(518))
+servers\world_server.py:791:                self.send_packet(fashion_builder.build(4612))
+servers\world_server.py:883:        self.send_packet(builder.build(4609))
+servers\world_server.py:901:        self.send_packet(builder.build(578))
+servers\world_server.py:931:        self.send_packet(builder.build(865))
+servers\world_server.py:947:        self.send_packet(builder.build(5122))
+servers\world_server.py:1033:        self.send_packet(builder.build(BagCommandCode.PLAYER_BAG_CHECK_NOTIFY))
+servers\world_server.py:1071:        self.send_packet(builder.build(BagCommandCode.PLAYER_ITEM_ADDED_NOTIFY))
+servers\world_server.py:1137:        self.send_packet(builder.build(BagCommandCode.PLAYER_VIEW_ITEM_ANSWER))
+servers\world_server.py:1213:        self.send_packet(builder.build(ShopCommandCode.SHOP_BUY_ITEM_ANSWER))
+servers\world_server.py:1221:        self.send_packet(builder.build(ShopCommandCode.SHOP_SELL_ITEM_ANSWER))
+servers\world_server.py:1299:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_GOLD_CHANGE_NOTIFY))
+servers\world_server.py:1309:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_EXP_CHANGE_NOTIFY))
+servers\world_server.py:1315:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_LEVEL_UP_NOTIFY))
+servers\world_server.py:1323:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_EXT_ATTR_INT_CHANGE_NOTIFY))
+servers\world_server.py:1390:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_MONEY_CHANGE_NOTIFY))
+servers\world_server.py:1439:                session.send_packet(builder.build(769))
+servers\world_server.py:1442:                entering_session.send_packet(builder.build(769))
+servers\world_server.py:1450:        self.broadcast_to_map(map_id, builder.build(770), exclude_session=leaving_session)
+servers\world_server.py:1530:                    if command == PlayerCommandCode.PLAYER_ENTER_WORLD_REQ:
+servers\world_server.py:1532:                    elif command == PlayerCommandCode.PLAYER_VIEW_MAP_REQ:
+servers\world_server.py:1534:                    elif command == BagCommandCode.PLAYER_BAG_CHECK_NOTIFY:
+servers\world_server.py:1636:                        return {
+servers\world_server.py:1653:                        return {'error': result.get('Message', 'Erro')}
+servers\world_server.py:1657:        return {'error': 'Banco não disponível'}
+servers\world_server.py:1678:        return {'IsDone': 0, 'FailureReason': 'Erro interno'}
+servers\world_server.py:1699:        return {'IsDone': 0, 'FailureReason': 'Erro interno'}
+handlers\inventory_handler.py:11:    def get_handlers(cls) -> Dict[int, str]:
+handlers\inventory_handler.py:12:        return {
+handlers\inventory_handler.py:13:            BagCommandCode.PLAYER_USE_ITEM_REQ: 'handle_use_item',
+handlers\inventory_handler.py:14:            BagCommandCode.PLAYER_MOVE_ITEM_REQ: 'handle_move_item',
+handlers\inventory_handler.py:15:            BagCommandCode.PLAYER_DROP_ITEM_REQ: 'handle_drop_item',
+handlers\inventory_handler.py:16:            BagCommandCode.PLAYER_VIEW_ITEM_REQ: 'handle_view_item',
+handlers\inventory_handler.py:17:            EquipmentCommandCode.PLAYER_REMOVE_EQUIPMENT_REQ: 'handle_remove_equipment',
+handlers\inventory_handler.py:18:            4611: 'handle_switch_fashion',  # PLAYER_SWITCH_FASHION_REQUEST
+handlers\inventory_handler.py:19:            5141: 'handle_bag_sort',  # PLAYER_BAG_SORT_REQUEST
+handlers\inventory_handler.py:269:        self.send_packet(builder.build(BagCommandCode.PLAYER_ITEM_USED_NOTIFY))
+handlers\inventory_handler.py:326:        packet_data = builder.build(865)
+handlers\inventory_handler.py:427:                self.send_packet(builder.build(BagCommandCode.PLAYER_VIEW_ITEM_ANSWER))
+handlers\inventory_handler.py:482:            self.send_packet(builder.build(4612))
+handlers\combat_handler.py:15:    def get_handlers(cls) -> Dict[int, str]:
+handlers\combat_handler.py:16:        return {
+handlers\combat_handler.py:17:            cls.PLAYER_USE_SKILL_REQ: 'handle_use_skill',
+handlers\combat_handler.py:60:            self.server.broadcast_to_map(map_id, remote_skill.build(801), exclude_session=self.session)
+handlers\combat_handler.py:93:                self.send_packet(cd_notify.build(569))
+handlers\combat_handler.py:108:            self.send_packet(hp_notify.build(self.MONSTER_HP_CHANGE_NOTIFY))
+handlers\combat_handler.py:119:                self.send_packet(died_notify.build(self.MONSTER_DIED_NOTIFY))
+servers\login_server.py:38:        packet = builder.build(LoginCommandCode.WELCOME_NOTIFY)
+servers\login_server.py:124:                    if command == LoginCommandCode.LOGIN_REQ:
+servers\login_server.py:128:                    elif command == LoginCommandCode.SERVER_LIST_REQ:
+servers\login_server.py:171:            packet = builder.build(LoginCommandCode.LOGIN_ANSWER)
+servers\login_server.py:183:            return builder.build(LoginCommandCode.LOGIN_ANSWER)
+servers\login_server.py:206:                    return {'status': 3, 'desc': 'Conta banida'}
+servers\login_server.py:212:                        return {'status': 2, 'desc': 'Senha incorreta'}
+servers\login_server.py:219:                return {
+servers\login_server.py:236:        return {
+servers\login_server.py:279:        return builder.build(LoginCommandCode.SERVER_LIST_ANSWER)
+handlers\mount_handler.py:15:    def get_handlers(cls) -> Dict[int, str]:
+handlers\mount_handler.py:16:        return {
+handlers\mount_handler.py:17:            cls.PLAYER_INVITE_RIDE_REQUEST: 'handle_invite_ride',
+handlers\mount_handler.py:18:            cls.PLAYER_PROCESS_INVITE_RIDE_REQUEST_REPLY: 'handle_invite_reply',
+handlers\mount_handler.py:19:            cls.PLAYER_ADD_RIDE_EXP_REQUEST: 'handle_add_ride_exp',
+handlers\mount_handler.py:36:            target_session.send_packet(notify.build(self.PLAYER_RECEIVE_INVITE_RIDE_REQUEST_NOTIFY))
+handlers\mount_handler.py:66:                self.server.broadcast_to_map(session.player_data.get('mapId', 'a1'), state_notify.build(self.PLAYER_RIDE_STATE_CHECK_NOTIFY))
+handlers\loot_manager.py:16:    def get_handlers(cls) -> Dict[int, str]:
+handlers\loot_manager.py:17:        return {
+handlers\loot_manager.py:18:            cls.PLAYER_PICKUP_ITEM_REQ: 'handle_pickup_item',
+handlers\loot_manager.py:19:            cls.PLAYER_DROP_ITEM_REQ: 'handle_drop_item',
+handlers\loot_manager.py:67:                packet_data = remove_notify.build(self.MAP_ITEM_REMOVED_NOTIFY)
+handlers\loot_manager.py:165:        packet_data = notify.build(self.MAP_ITEM_ADDED_NOTIFY)
+handlers\npc_handler.py:15:    def get_handlers(cls):
+handlers\npc_handler.py:16:        return {
+handlers\npc_handler.py:17:            cls.NPC_FUNCTION_REQUEST: 'handle_menu_action',
+handlers\npc_handler.py:103:                self.send_packet(builder.build(self.NPC_FUNCTION_ANSWER))
+handlers\npc_handler.py:180:            self.send_packet(builder.build(self.PLAYER_SHOW_TALKS_NOTIFY))
+handlers\npc_handler.py:212:                self.send_packet(transition_builder.build(518))
+handlers\base_handler.py:16:    def get_handlers(cls) -> Dict[int, str]:
+handlers\base_handler.py:17:        return {}
+handlers\base_handler.py:53:        self.send_packet(builder.build(command_code))
+handlers\chat_handler.py:12:    def get_handlers(cls) -> Dict[int, str]:
+handlers\chat_handler.py:13:        return {
+handlers\chat_handler.py:14:            cls.PLAYER_SEND_MSG_REQUEST: 'handle_send_msg',
+handlers\chat_handler.py:45:            packet_data = builder.build(self.PLAYER_RECEIVE_MSG_NOTIFY)
+handlers\chat_handler.py:67:                    self.send_packet(sys_builder.build(self.PLAYER_RECEIVE_MSG_NOTIFY))
+handlers\ride_handler.py:14:    def get_handlers(cls) -> Dict[int, str]:
+handlers\ride_handler.py:15:        return {
+handlers\ride_handler.py:16:            cls.PLAYER_RIDE_REQUEST: 'handle_ride_request',
+handlers\ride_handler.py:17:            cls.PLAYER_SET_USING_RIDE_REQUEST: 'handle_set_using_ride',
+handlers\ride_handler.py:55:            packet_data = notify.build(self.PLAYER_RIDE_STATE_CHECK_NOTIFY)
+handlers\ride_handler.py:96:            self.send_packet(builder.build(self.PLAYER_USING_RIDE_CHECK_NOTIFY))
+handlers\attribute_handler.py:10:    def get_handlers(cls) -> Dict[int, str]:
+handlers\attribute_handler.py:11:        return {
+handlers\attribute_handler.py:12:            cls.PLAYER_ASSIGN_ATTR_REQUEST: 'handle_assign_attr',
+handlers\role_handler.py:10:    def get_handlers(cls) -> Dict[int, str]:
+handlers\role_handler.py:11:        return {
+handlers\role_handler.py:12:            RoleCommandCode.ROLE_LIST_REQ: 'handle_role_list',
+handlers\role_handler.py:13:            RoleCommandCode.ROLE_NAME_CONFIRM_REQ: 'handle_role_name_confirm',
+handlers\role_handler.py:14:            RoleCommandCode.CREATE_ROLE_REQ: 'handle_create_role',
+handlers\role_handler.py:15:            RoleCommandCode.DELETE_ROLE_REQ: 'handle_delete_role',
+handlers\role_handler.py:16:            RoleCommandCode.SELECT_ROLE_REQ: 'handle_select_role',
+handlers\role_handler.py:59:            self.send_packet(builder.build(RoleCommandCode.ROLE_LIST_ANSWER))
+handlers\role_handler.py:78:            self.send_packet(builder.build(RoleCommandCode.ROLE_NAME_CONFIRM_ANSWER))
+handlers\role_handler.py:138:            self.send_packet(builder.build(RoleCommandCode.CREATE_ROLE_ANSWER))
+handlers\role_handler.py:170:            self.send_packet(builder.build(RoleCommandCode.SELECT_ROLE_ANSWER))
+handlers\role_handler.py:189:            self.send_packet(builder.build(RoleCommandCode.DELETE_ROLE_ANSWER))
+handlers\pet_handler.py:61:    def get_handlers(cls) -> Dict[int, str]:
+handlers\pet_handler.py:62:        return {
+handlers\pet_handler.py:63:            cls.PET_VIEW_REQUEST: 'handle_pet_view_request',
+handlers\pet_handler.py:94:            self.send_packet(builder.build(self.PET_CHECK_NOTIFY))
+handlers\registry.py:16:        handlers = handler_class.get_handlers()
+handlers\registry.py:55:        return {
+handlers\movement_handler.py:16:    def get_handlers(cls) -> Dict[int, str]:
+handlers\movement_handler.py:17:        return {
+handlers\movement_handler.py:18:            PlayerCommandCode.PLAYER_MOVE_REQ: 'handle_player_move',
+handlers\movement_handler.py:19:            PlayerCommandCode.PLAYER_ENTER_MAP_REQ: 'handle_enter_map',
+handlers\movement_handler.py:84:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_POSITION_CHECK_NOTIFY))
+handlers\movement_handler.py:98:        self.server.broadcast_to_map(map_id, builder.build(772), exclude_session=self.session)
+handlers\movement_handler.py:153:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_ENTER_MAP_ANSWER))
+handlers\movement_handler.py:163:        self.send_packet(builder.build(PlayerCommandCode.PLAYER_ENTER_MAP_ANSWER))
+handlers\world_handler.py:12:    def get_handlers(cls) -> Dict[int, str]:
+handlers\world_handler.py:13:        return {
+handlers\world_handler.py:14:            WorldCommandCode.WORLD_LOGIN_REQ: 'handle_world_login',
+handlers\world_handler.py:15:            WorldCommandCode.WORLD_PING_ECHO: 'handle_ping',
+handlers\world_handler.py:16:            WorldCommandCode.WORLD_CLIENT_SAVE_CONFIG_NOTIFY: 'handle_client_save_config',
+handlers\world_handler.py:17:            12081: 'handle_robot_action',
+handlers\world_handler.py:18:            WorldCommandCode.PVE_MAPS_REQ: 'handle_pve_maps',
+handlers\world_handler.py:36:            self.send_packet(builder.build(5896))
+handlers\world_handler.py:62:            self.send_packet(builder.build(WorldCommandCode.WORLD_LOGIN_ANSWER))
+handlers\world_handler.py:75:        self.send_packet(builder.build(WorldCommandCode.WORLD_PING_ECHO))
+handlers\world_handler.py:94:        self.send_packet(builder.build(WorldCommandCode.PVE_MAPS_ANSWER))
+handlers\task_handler.py:21:    def get_handlers(cls) -> Dict[int, str]:
+handlers\task_handler.py:22:        return {
+handlers\task_handler.py:23:            cls.RECEIVE_REQUEST: 'handle_receive',
+handlers\task_handler.py:24:            cls.FINISH_REQUEST: 'handle_finish',
+handlers\task_handler.py:25:            cls.ABORT_REQUEST: 'handle_abort',
+handlers\task_handler.py:56:        self.send_packet(builder.build(self.RECEIVE_NOTIFY))
+handlers\task_handler.py:74:        self.send_packet(builder.build(self.FINISH_NOTIFY))
+handlers\task_handler.py:90:        self.send_packet(builder.build(self.ABORT_NOTIFY))
+handlers\task_handler.py:222:            self.send_packet(builder.build(self.RECEIVE_NOTIFY))
+handlers\skill_handler.py:11:    def get_handlers(cls) -> Dict[int, str]:
+handlers\skill_handler.py:12:        return {
+handlers\skill_handler.py:13:            cls.PLAYER_LEARN_SKILL_REQUEST: 'handle_learn_skill',
+handlers\skill_handler.py:50:                self.send_packet(notify.build(659))
+handlers\team_handler.py:49:    session.send_packet(builder.build(8449))
+handlers\team_handler.py:62:    def get_handlers(cls) -> Dict[int, str]:
+handlers\team_handler.py:63:        return {
+handlers\team_handler.py:64:            cls.PLAYER_CREATE_TEAM_REQUEST: 'handle_create_team',
+handlers\team_handler.py:65:            cls.PLAYER_INVITE_TEAM_REQUEST: 'handle_invite_team',
+handlers\team_handler.py:66:            cls.PLAYER_PROCESS_INVITE_TEAM_REQUEST_REPLY: 'handle_invite_reply',
+handlers\team_handler.py:67:            cls.PLAYER_QUIT_TEAM_REQUEST: 'handle_quit_team',
+handlers\team_handler.py:68:            cls.PLAYER_DISMISS_TEAM_REQUEST: 'handle_dismiss_team',
+handlers\team_handler.py:107:            target_session.send_packet(notify.build(self.PLAYER_RECEIVE_INVITE_TEAM_REQUEST_NOTIFY))
+handlers\shop_handler.py:10:    def get_handlers(cls) -> Dict[int, str]:
+handlers\shop_handler.py:11:        return {
+handlers\shop_handler.py:12:            ShopCommandCode.SHOP_SELL_ITEM_REQ: 'handle_sell_item',
+handlers\shop_handler.py:13:            ShopCommandCode.SHOP_BUY_ITEM_REQ: 'handle_buy_item_gold',
+handlers\shop_handler.py:14:            ShopCommandCode.STORE_BUY_ITEM_REQ: 'handle_buy_item_crystal',
+handlers\shop_handler.py:434:        self.send_packet(builder.build(ShopCommandCode.SHOP_BUY_ITEM_ANSWER))
+handlers\shop_handler.py:442:        self.send_packet(builder.build(ShopCommandCode.SHOP_SELL_ITEM_ANSWER))

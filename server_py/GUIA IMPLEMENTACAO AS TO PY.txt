@@ -1,0 +1,24 @@
+﻿Guia de implementacao AS -> Python
+Atualizado em 2026-06-09
+
+Este arquivo estava vazio. Use este fluxo para novos comandos:
+
+1. Localize o CommandCode no AS:
+   `_referencias/_game_outer_export/scripts/com/sunweb/game/rpg/worldZone/command/**/CommandCode*.as`
+
+2. Abra o request/answer/notify correspondente e copie exatamente o `getFieldList()`.
+
+3. Registre o ID em `server_py/protocol/commands.py`.
+
+4. Implemente o handler em `server_py/handlers/` e registre no `get_handlers()`.
+
+5. Se houver objeto transportable, o writer raw escreve somente os campos do objeto; `write_transportable_object()` escreve o prefixo `ushort` de tamanho; nunca escreva o tamanho duas vezes.
+
+6. Se houver estado real, adicione tabela/metodo em `server_py/database.py`, adicione migration PostgreSQL em `server_py/tools/sql/`, e valide no PostgreSQL principal, nao apenas SQLite.
+
+7. Se o comando tiver custo, item consumido, limite, nivel, shop, pet, artifact ou progressao, rode `python server_py/tools/audit_resource_domains.py --max-examples 6` e consulte `server_py/gameplay/game_resource_service.py`.
+8. Atualize `server_py/scratch_server_commands.txt`, `server_py/COMANDOS_TABELA.md` e relatorios/documentacao relevantes.
+
+8. Rode `python -m py_compile <arquivos alterados>` e `python -m unittest discover server_py/tests`.
+
+Estado atual: PostgreSQL principal `mspt1`, 109 comandos registrados, 80 testes OK.

@@ -1,0 +1,191 @@
+{
+  "c26d6833-59a9-4491-b010-7b711cbf1cfd": [
+    {
+      "id": 1780808104091,
+      "name": "destruidor",
+      "jobCode": 5,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 103,
+      "hairStyleIndex": 0,
+      "accountId": "c26d6833-59a9-4491-b010-7b711cbf1cfd",
+      "createTime": "2026-06-07T01:55:04",
+      "lastPlayTime": "2026-06-07T01:55:04",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 900,
+      "posY": 700
+    }
+  ],
+  "33e5a966-5788-46ad-84a7-620be0b358c1": [
+    {
+      "id": 1780808354114,
+      "name": "domador",
+      "jobCode": 5,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 101,
+      "hairStyleIndex": 0,
+      "accountId": "33e5a966-5788-46ad-84a7-620be0b358c1",
+      "createTime": "2026-06-07T01:59:14",
+      "lastPlayTime": "2026-06-07T01:59:14",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 900,
+      "posY": 700
+    }
+  ],
+  "9ee09a7e-4958-439f-8355-353e64b35a4e": [
+    {
+      "id": 1780808663940,
+      "name": "sasaasas",
+      "jobCode": 2,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 102,
+      "hairStyleIndex": 0,
+      "accountId": "9ee09a7e-4958-439f-8355-353e64b35a4e",
+      "createTime": "2026-06-07T02:04:23",
+      "lastPlayTime": "2026-06-07T02:04:23",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 900,
+      "posY": 700
+    }
+  ],
+  "c00722dd-a129-439a-b26a-6b5b393fbd17": [
+    {
+      "id": 1780808877497,
+      "name": "sdadsa",
+      "jobCode": 0,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 102,
+      "hairStyleIndex": 0,
+      "accountId": "c00722dd-a129-439a-b26a-6b5b393fbd17",
+      "createTime": "2026-06-07T02:07:57",
+      "lastPlayTime": "2026-06-07T02:07:57",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 900,
+      "posY": 700
+    }
+  ],
+  "5ee57f93-389e-4809-8339-4c297f8f3b0b": [
+    {
+      "id": 1780809609685,
+      "name": "adsadsdsa",
+      "jobCode": 1,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 101,
+      "hairStyleIndex": 0,
+      "accountId": "5ee57f93-389e-4809-8339-4c297f8f3b0b",
+      "createTime": "2026-06-07T02:20:09",
+      "lastPlayTime": "2026-06-07T02:20:09",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 900,
+      "posY": 700
+    }
+  ],
+  "5b948f3f-757d-4902-a2e0-82d8db9d0d46": [
+    {
+      "id": 1780810059328,
+      "name": "zzxxzxz",
+      "jobCode": 1,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 101,
+      "hairStyleIndex": 0,
+      "accountId": "5b948f3f-757d-4902-a2e0-82d8db9d0d46",
+      "createTime": "2026-06-07T02:27:39",
+      "lastPlayTime": "2026-06-07T02:27:39",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 1120,
+      "posY": 2080
+    }
+  ],
+  "5ccd35ef-013e-4b9c-b252-4690ab0f7688": [
+    {
+      "id": 1780811223551,
+      "name": "assaszczx",
+      "jobCode": 6,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 102,
+      "hairStyleIndex": 0,
+      "accountId": "5ccd35ef-013e-4b9c-b252-4690ab0f7688",
+      "createTime": "2026-06-07T02:47:03",
+      "lastPlayTime": "2026-06-07T02:47:03",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 1120,
+      "posY": 2080
+    }
+  ],
+  "fe1f53f4-2a47-436f-89cb-3d3c7183fa82": [
+    {
+      "id": 1780811573425,
+      "name": "teste",
+      "jobCode": 1,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 101,
+      "hairStyleIndex": 0,
+      "accountId": "fe1f53f4-2a47-436f-89cb-3d3c7183fa82",
+      "createTime": "2026-06-07T02:52:53",
+      "lastPlayTime": "2026-06-07T02:52:53",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 1120,
+      "posY": 2080
+    }
+  ],
+  "1d96bec4-db41-4dbc-abff-8bafc0c92170": [
+    {
+      "id": 1780812115976,
+      "name": "sasaas",
+      "jobCode": 1,
+      "sex": 1,
+      "level": 1,
+      "headIconIndex": 102,
+      "hairStyleIndex": 0,
+      "accountId": "1d96bec4-db41-4dbc-abff-8bafc0c92170",
+      "createTime": "2026-06-07T03:01:55",
+      "lastPlayTime": "2026-06-07T03:01:56",
+      "deletedFlag": false,
+      "willDeleteTime": "",
+      "equipmentModels": {},
+      "hasRolePassword": false,
+      "mapId": "a1",
+      "posX": 1120,
+      "posY": 2080
+    }
+  ]
+}

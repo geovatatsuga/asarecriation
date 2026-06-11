@@ -1,0 +1,11 @@
+$socket = New-Object System.Net.Sockets.TcpClient('127.0.0.1',843)
+$stream = $socket.GetStream()
+$writer = New-Object System.IO.StreamWriter($stream)
+$writer.Write('<policy-file-request/>')
+$writer.Flush()
+$reader = New-Object System.IO.StreamReader($stream)
+$response = $reader.ReadToEnd()
+$writer.Close()
+$reader.Close()
+$socket.Close()
+Write-Host $response

@@ -1,0 +1,4659 @@
+{
+  "summary": {
+    "defined": 822,
+    "uniqueDefined": 822,
+    "serverReferenced": 105,
+    "implemented": 85,
+    "missing": 737
+  },
+  "categories": [
+    {
+      "category": "player",
+      "total": 96,
+      "implemented": 37,
+      "missing": 59
+    },
+    {
+      "category": "family",
+      "total": 47,
+      "implemented": 0,
+      "missing": 47
+    },
+    {
+      "category": "remote",
+      "total": 34,
+      "implemented": 5,
+      "missing": 29
+    },
+    {
+      "category": "artifact",
+      "total": 29,
+      "implemented": 0,
+      "missing": 29
+    },
+    {
+      "category": "team",
+      "total": 29,
+      "implemented": 8,
+      "missing": 21
+    },
+    {
+      "category": "baby",
+      "total": 19,
+      "implemented": 0,
+      "missing": 19
+    },
+    {
+      "category": "farm",
+      "total": 18,
+      "implemented": 0,
+      "missing": 18
+    },
+    {
+      "category": "pet",
+      "total": 18,
+      "implemented": 2,
+      "missing": 16
+    },
+    {
+      "category": "reward",
+      "total": 17,
+      "implemented": 0,
+      "missing": 17
+    },
+    {
+      "category": "playerBag",
+      "total": 17,
+      "implemented": 10,
+      "missing": 7
+    },
+    {
+      "category": "incubator",
+      "total": 16,
+      "implemented": 0,
+      "missing": 16
+    },
+    {
+      "category": "constellation",
+      "total": 14,
+      "implemented": 0,
+      "missing": 14
+    },
+    {
+      "category": "trade",
+      "total": 13,
+      "implemented": 0,
+      "missing": 13
+    },
+    {
+      "category": "kindGrow",
+      "total": 11,
+      "implemented": 0,
+      "missing": 11
+    },
+    {
+      "category": "itemManual",
+      "total": 11,
+      "implemented": 0,
+      "missing": 11
+    },
+    {
+      "category": "makeChip",
+      "total": 11,
+      "implemented": 0,
+      "missing": 11
+    },
+    {
+      "category": "booth",
+      "total": 10,
+      "implemented": 0,
+      "missing": 10
+    },
+    {
+      "category": "challenge",
+      "total": 10,
+      "implemented": 0,
+      "missing": 10
+    },
+    {
+      "category": "command",
+      "total": 10,
+      "implemented": 5,
+      "missing": 5
+    },
+    {
+      "category": "fund",
+      "total": 10,
+      "implemented": 0,
+      "missing": 10
+    },
+    {
+      "category": "lottery",
+      "total": 10,
+      "implemented": 0,
+      "missing": 10
+    },
+    {
+      "category": "map",
+      "total": 10,
+      "implemented": 2,
+      "missing": 8
+    },
+    {
+      "category": "bone",
+      "total": 10,
+      "implemented": 0,
+      "missing": 10
+    },
+    {
+      "category": "angel",
+      "total": 9,
+      "implemented": 0,
+      "missing": 9
+    },
+    {
+      "category": "equ",
+      "total": 9,
+      "implemented": 3,
+      "missing": 6
+    },
+    {
+      "category": "feedGod",
+      "total": 9,
+      "implemented": 0,
+      "missing": 9
+    },
+    {
+      "category": "playingCard",
+      "total": 9,
+      "implemented": 0,
+      "missing": 9
+    },
+    {
+      "category": "friend",
+      "total": 9,
+      "implemented": 0,
+      "missing": 9
+    },
+    {
+      "category": "agent",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "animal",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "cloak",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "country",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "legend",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "mail",
+      "total": 8,
+      "implemented": 0,
+      "missing": 8
+    },
+    {
+      "category": "monster",
+      "total": 8,
+      "implemented": 2,
+      "missing": 6
+    },
+    {
+      "category": "bless",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "genie",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "lockTower",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "clear",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "onlineBonus",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "passTicket",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "playerDevil",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "reGrow",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "rideEquipment",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "shop",
+      "total": 7,
+      "implemented": 3,
+      "missing": 4
+    },
+    {
+      "category": "tree",
+      "total": 7,
+      "implemented": 0,
+      "missing": 7
+    },
+    {
+      "category": "bloodyWar",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "divine",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "fateTurntable",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "glyph",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "pocket",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "task",
+      "total": 6,
+      "implemented": 6,
+      "missing": 0
+    },
+    {
+      "category": "treasury",
+      "total": 6,
+      "implemented": 0,
+      "missing": 6
+    },
+    {
+      "category": "aegis",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "devilGod",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "dragon",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "magicCircle",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "petDepot",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "godSoul",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "vacantSpace",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "rideDepot",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "soulGuard",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "success",
+      "total": 5,
+      "implemented": 1,
+      "missing": 4
+    },
+    {
+      "category": "wardrobe",
+      "total": 5,
+      "implemented": 0,
+      "missing": 5
+    },
+    {
+      "category": "extractant",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "forgeGod",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "GenieMagic",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "tower",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "monsterManual",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "npc",
+      "total": 4,
+      "implemented": 1,
+      "missing": 3
+    },
+    {
+      "category": "playerBook",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "starAdventure",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "stirp",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "totem",
+      "total": 4,
+      "implemented": 0,
+      "missing": 4
+    },
+    {
+      "category": "activity",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "activityBox",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "godStyle",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "mate",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "runningMan",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "sysmsg",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "trap",
+      "total": 3,
+      "implemented": 0,
+      "missing": 3
+    },
+    {
+      "category": "bot",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "favor",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "gm",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "misc",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "pis",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "ranking",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "varShop",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    },
+    {
+      "category": "wingSpirit",
+      "total": 2,
+      "implemented": 0,
+      "missing": 2
+    }
+  ],
+  "implemented": [
+    {
+      "name": "WORLD_LOGIN_REQ",
+      "id": 33,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_LOGIN_ANSWER",
+      "id": 34,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_PING_ECHO",
+      "id": 49,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_CLIENT_SAVE_CONFIG_REQ",
+      "id": 50,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_PVE_MAPS_NOTIFY",
+      "id": 81,
+      "category": "command"
+    },
+    {
+      "name": "PLAYER_EQUIPMENT_CHECK_NOTIFY",
+      "id": 4609,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_REMOVE_EQUIPMENT_REQUEST",
+      "id": 4610,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_SWITCH_FASHION_NOTIFY",
+      "id": 4612,
+      "category": "equ"
+    },
+    {
+      "name": "MAP_ITEM_ADDED_NOTIFY",
+      "id": 1537,
+      "category": "map"
+    },
+    {
+      "name": "MAP_ITEM_REMOVED_NOTIFY",
+      "id": 1538,
+      "category": "map"
+    },
+    {
+      "name": "MONSTER_DIED_NOTIFY",
+      "id": 1282,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_HP_CHANGE_NOTIFY",
+      "id": 1286,
+      "category": "monster"
+    },
+    {
+      "name": "NPC_FUNCTION_REQUEST",
+      "id": 1025,
+      "category": "npc"
+    },
+    {
+      "name": "PET_CHECK_NOTIFY",
+      "id": 5377,
+      "category": "pet"
+    },
+    {
+      "name": "PET_VIEW_REQUEST",
+      "id": 5378,
+      "category": "pet"
+    },
+    {
+      "name": "PLAYER_ENTER_WORLD_REQ",
+      "id": 513,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ENTER_WORLD_ANSWER",
+      "id": 514,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ENTER_MAP_REQ",
+      "id": 517,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ENTER_MAP_ANSWER",
+      "id": 518,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_MOVE_REQ",
+      "id": 519,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_POSITION_CHECK_NOTIFY",
+      "id": 520,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_VIEW_MAP_REQ",
+      "id": 521,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_VIEW_MAP_ANSWER",
+      "id": 522,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_USE_SKILL_REQ",
+      "id": 545,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_HP_CHANGE_NOTIFY",
+      "id": 550,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_MP_CHANGE_NOTIFY",
+      "id": 552,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_EXP_CHANGE_NOTIFY",
+      "id": 561,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LEVEL_UP_NOTIFY",
+      "id": 562,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_GOLD_CHANGE_NOTIFY",
+      "id": 563,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_MONEY_CHANGE_NOTIFY",
+      "id": 564,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_REBIRTH_REQUEST",
+      "id": 567,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_REBIRTH_NOTIFY",
+      "id": 568,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SKILL_CD_CHECK_NOTIFY",
+      "id": 569,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SEND_MSG_REQUEST",
+      "id": 673,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RECEIVE_MSG_NOTIFY",
+      "id": 674,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SHOW_TALKS_NOTIFY",
+      "id": 676,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ATTRIBUTES_CHANGE_NOTIFY",
+      "id": 578,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SIT_REQUEST",
+      "id": 583,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SIT_CHECK_NOTIFY",
+      "id": 584,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_REQUEST",
+      "id": 593,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_STATE_CHECK_NOTIFY",
+      "id": 594,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_INVITE_RIDE_REQUEST",
+      "id": 598,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RECEIVE_INVITE_RIDE_REQUEST_NOTIFY",
+      "id": 599,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_PROCESS_INVITE_RIDE_REQUEST_REPLY",
+      "id": 600,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SET_USING_RIDE_REQUEST",
+      "id": 602,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_USING_RIDE_CHECK_NOTIFY",
+      "id": 603,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ADD_RIDE_EXP_REQUEST",
+      "id": 605,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LEARN_SKILL_REQUEST",
+      "id": 657,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LEARNED_SKILLS_CHECK_NOTIFY",
+      "id": 658,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LEARNED_SKILL_NOTIFY",
+      "id": 659,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_EXT_ATTR_INT_CHANGE_NOTIFY",
+      "id": 689,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_ASSIGN_ATTR_REQUEST",
+      "id": 690,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_BAG_CHECK_NOTIFY",
+      "id": 5121,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_BAG_CAPACITY_CHANGE_NOTIFY",
+      "id": 5122,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_PICKUP_ITEM_REQUEST",
+      "id": 5123,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_USE_ITEM_REQUEST",
+      "id": 5124,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_MOVE_ITEM_REQUEST",
+      "id": 5125,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_DROP_ITEM_REQUEST",
+      "id": 5127,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_ITEM_USED_NOTIFY",
+      "id": 5130,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_ITEM_ADDED_NOTIFY",
+      "id": 5131,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_VIEW_ITEM_REQUEST",
+      "id": 5133,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_VIEW_ITEM_ANSWER",
+      "id": 5134,
+      "category": "playerBag"
+    },
+    {
+      "name": "REMOTE_ENTER_NOTIFY",
+      "id": 769,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_LEAVE_NOTIFY",
+      "id": 770,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_POSITION_CHECK_NOTIFY",
+      "id": 772,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_USE_SKILL_NOTIFY",
+      "id": 801,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_EQUIPMENT_MODEL_CHECK_NOTIFY",
+      "id": 865,
+      "category": "remote"
+    },
+    {
+      "name": "SHOP_SELL_ITEM_REQUEST",
+      "id": 2817,
+      "category": "shop"
+    },
+    {
+      "name": "SHOP_BUY_ITEM_REQUEST",
+      "id": 2818,
+      "category": "shop"
+    },
+    {
+      "name": "STORE_BUY_ITEM_REQUEST",
+      "id": 2819,
+      "category": "shop"
+    },
+    {
+      "name": "PLAYER_FINISH_SUCCESS_NOTIFY",
+      "id": 5896,
+      "category": "success"
+    },
+    {
+      "name": "PLAYER_RECEIVE_TASK_REQUEST",
+      "id": 5889,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_FINISH_TASK_REQUEST",
+      "id": 5890,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_ABORT_TASK_REQUEST",
+      "id": 5891,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_RECEIVE_TASK_NOTIFY",
+      "id": 5892,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_FINISH_TASK_NOTIFY",
+      "id": 5893,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_ABORT_TASK_NOTIFY",
+      "id": 5894,
+      "category": "task"
+    },
+    {
+      "name": "PLAYER_TEAM_CHECK_NOTIFY",
+      "id": 8449,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_MEMBER_CHECK_NOTIFY",
+      "id": 8450,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_CREATE_TEAM_REQUEST",
+      "id": 8465,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_DISMISS_TEAM_REQUEST",
+      "id": 8466,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_INVITE_TEAM_REQUEST",
+      "id": 8471,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_RECEIVE_INVITE_TEAM_REQUEST_NOTIFY",
+      "id": 8472,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_PROCESS_INVITE_TEAM_REQUEST_REPLY",
+      "id": 8473,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_QUIT_TEAM_REQUEST",
+      "id": 8479,
+      "category": "team"
+    }
+  ],
+  "missing": [
+    {
+      "name": "ACTIVITY_CHECK_ALL_NOTIFY",
+      "id": 12065,
+      "category": "activity"
+    },
+    {
+      "name": "ACTIVITY_CHECK_ONE_NOTIFY",
+      "id": 12066,
+      "category": "activity"
+    },
+    {
+      "name": "PAY_MARK_ACTIVITY_NOTIFY",
+      "id": 12067,
+      "category": "activity"
+    },
+    {
+      "name": "SPECIALLY_BUY_REQUEST",
+      "id": 2832,
+      "category": "activityBox"
+    },
+    {
+      "name": "CONSUME_RANK_NOTIFY",
+      "id": 2833,
+      "category": "activityBox"
+    },
+    {
+      "name": "CONSUME_RANK_ITEM_NOTIFY",
+      "id": 2834,
+      "category": "activityBox"
+    },
+    {
+      "name": "PLAYER_AEGIS_REQUEST",
+      "id": 10784,
+      "category": "aegis"
+    },
+    {
+      "name": "PLAYER_PRAY_ANSWER",
+      "id": 10785,
+      "category": "aegis"
+    },
+    {
+      "name": "PLAYER_UPDATE_ANSWER",
+      "id": 10786,
+      "category": "aegis"
+    },
+    {
+      "name": "PLAYER_UP_LEVEL_ANSWER",
+      "id": 10787,
+      "category": "aegis"
+    },
+    {
+      "name": "PLAYER_AEGIS_NOTIFY",
+      "id": 10788,
+      "category": "aegis"
+    },
+    {
+      "name": "AGENT_SELL_ITEM_REQUEST",
+      "id": 2865,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_CANCEL_ITEM_REQUEST",
+      "id": 2866,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_BUY_ITEM_REQUEST",
+      "id": 2867,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_LIST_ITEM_REQUEST",
+      "id": 2868,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_LIST_ITEM_ANSWER",
+      "id": 2869,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_VIEW_MY_ITEMS_REQUEST",
+      "id": 2870,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_VIEW_MY_ITEMS_ANSWER",
+      "id": 2871,
+      "category": "agent"
+    },
+    {
+      "name": "AGENT_TAKE_BACK_REQUEST",
+      "id": 2872,
+      "category": "agent"
+    },
+    {
+      "name": "PLAYER_ANGEL_GOD_NOTIFY",
+      "id": 10512,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_UP_REQUEST",
+      "id": 10513,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_UP_ANSWER",
+      "id": 10514,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_GOD_UP_REQUEST",
+      "id": 10515,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_GOD_UP_ANSWER",
+      "id": 10516,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_EQU_REQUEST",
+      "id": 10517,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_EQU_ANSWER",
+      "id": 10518,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_INFO_NOTIFY",
+      "id": 10519,
+      "category": "angel"
+    },
+    {
+      "name": "PLAYER_ANGEL_ENTER_REQUEST",
+      "id": 10520,
+      "category": "angel"
+    },
+    {
+      "name": "ANIMAL_MOVE_NOTIFY",
+      "id": 9984,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_MOVE_REQUEST",
+      "id": 9985,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_USE_SKILL_NOTIFY",
+      "id": 9986,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_HP_CHANGE_NOTIFY",
+      "id": 9987,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_SET_ACTION_MODE_REQUEST",
+      "id": 9988,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_ATTRIBUTES_CHANGE_NOTIFY",
+      "id": 9989,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_ENTER_TRAINER_NOTIFY",
+      "id": 9990,
+      "category": "animal"
+    },
+    {
+      "name": "ANIMAL_BUFF_CHANGE_NOTIFY",
+      "id": 9991,
+      "category": "animal"
+    },
+    {
+      "name": "ARTIFACT_HOLE_REQUEST",
+      "id": 6145,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_HOLE_ANSWER",
+      "id": 6146,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_EMBED_REQUEST",
+      "id": 6147,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_EMBED_ANSWER",
+      "id": 6148,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_DISEMBED_REQUEST",
+      "id": 6149,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_DISEMBED_ANSWER",
+      "id": 6150,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_REFINE_REQUEST",
+      "id": 6161,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_REFINE_ANSWER",
+      "id": 6162,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_DECOMPOSE_REQUEST",
+      "id": 6177,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_UPGRADE_REQUEST",
+      "id": 6181,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_UPGRADE_ANSWER",
+      "id": 6182,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_FUSION_REQUEST",
+      "id": 6183,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_FUSION_ANSWER",
+      "id": 6184,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_WASH_REQUEST",
+      "id": 6192,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_WASH_ANSWER",
+      "id": 6193,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_HOLESKILL_REQUEST",
+      "id": 6194,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_HOLESKILL_ANSWER",
+      "id": 6195,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_HOST_REQUEST",
+      "id": 6196,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_HOST_ANSWER",
+      "id": 6197,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_CLEAN_SKILL_REQUEST",
+      "id": 6198,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_CLEAN_SKILL_ANSWER",
+      "id": 6199,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_LETTERING_REQUEST",
+      "id": 6200,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_LETTERING_ANSWER",
+      "id": 6201,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_UP_EQU_EXP_REQUEST",
+      "id": 6208,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_UP_EQU_EXP_ANSWER",
+      "id": 6209,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_SOUL_REQUEST",
+      "id": 6165,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_SOUL_ANSWER",
+      "id": 6166,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_SOUL_MOVE_REQUEST",
+      "id": 6167,
+      "category": "artifact"
+    },
+    {
+      "name": "ARTIFACT_SOUL_MOVE_ANSWER",
+      "id": 6168,
+      "category": "artifact"
+    },
+    {
+      "name": "PLAYER_BABY_EAT_REQUEST",
+      "id": 8272,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_EAT_ANSWER",
+      "id": 8273,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_STUDY_REQUEST",
+      "id": 8274,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_STUDY_ANSWER",
+      "id": 8275,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_STUDY_OVER_REQUEST",
+      "id": 8276,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_BUY_COLLEGE_REQUEST",
+      "id": 8277,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_BUY_ATTR_MAX_REQUEST",
+      "id": 8278,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_BUY_ATTR_MAX_ANSWER",
+      "id": 8279,
+      "category": "baby"
+    },
+    {
+      "name": "PLYAER_BABY_TRAVEL_REQUEST",
+      "id": 8280,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_TRAVEL_ANSWER",
+      "id": 8281,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_TRAVEL_OVER_REQUEST",
+      "id": 8282,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_TRAVEL_FAST_REQUEST",
+      "id": 8283,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_RESET_LUCK_LAND_REQUEST",
+      "id": 8284,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_BLOOD_UP_REQUEST",
+      "id": 8285,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_BLOOD_UP_ANSWER",
+      "id": 8286,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_INFO_NOTIFY",
+      "id": 8287,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_LV_AT_NOTIFY",
+      "id": 8288,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_FOOD_NOTIFY",
+      "id": 8289,
+      "category": "baby"
+    },
+    {
+      "name": "PLAYER_BABY_FAST_LEARN_REQUEST",
+      "id": 8290,
+      "category": "baby"
+    },
+    {
+      "name": "BLESS_CHECK_NOTIFY",
+      "id": 4929,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_START_REQUEST",
+      "id": 4930,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_STOP_REQUEST",
+      "id": 4931,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_VISIT_REQUEST",
+      "id": 4932,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_VISIT_ANSWER",
+      "id": 4933,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_BUY_REQUEST",
+      "id": 4934,
+      "category": "bless"
+    },
+    {
+      "name": "BLESS_SOLD_NOTIFY",
+      "id": 4935,
+      "category": "bless"
+    },
+    {
+      "name": "BLOODY_WAR_UP_LEVEL_REQUEST",
+      "id": 11088,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BLOODY_WAR_UP_LEVEL_ANSWER",
+      "id": 11089,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BLOODY_WAR_CHANGE_REQUEST",
+      "id": 11090,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BLOODY_WAR_CHANGE_ANSWER",
+      "id": 11091,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BLOODY_WAR_INFO_NOTIFY",
+      "id": 11092,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BLOODY_WAR_KILL_MONSTER_NOTIFY",
+      "id": 11093,
+      "category": "bloodyWar"
+    },
+    {
+      "name": "BOOTH_CHECK_NOTIFY",
+      "id": 2945,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_START_REQUEST",
+      "id": 2946,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_STOP_REQUEST",
+      "id": 2947,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_SET_TITLE_REQUEST",
+      "id": 2948,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_VISIT_REQUEST",
+      "id": 2949,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_VISIT_ANSWER",
+      "id": 2950,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_BUY_ITEM_REQUEST",
+      "id": 2951,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_ITEM_SOLD_NOTIFY",
+      "id": 2952,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_PURCHASE_ITEM_REQUEST",
+      "id": 2953,
+      "category": "booth"
+    },
+    {
+      "name": "BOOTH_ITEM_PURCHASED_NOTIFY",
+      "id": 2954,
+      "category": "booth"
+    },
+    {
+      "name": "ROBOT_ACTION_REQUEST",
+      "id": 12081,
+      "category": "bot"
+    },
+    {
+      "name": "ROBOT_STATUS_CHECK_NOTIFY",
+      "id": 12082,
+      "category": "bot"
+    },
+    {
+      "name": "ROBOT_OPEN_REQUEST",
+      "id": 8202,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_OPEN_ANSWER",
+      "id": 8203,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_ADD_CHANCE_REQUEST",
+      "id": 8204,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_ADD_CHANCE_ANSWER",
+      "id": 8205,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_REPORT_NOTIFY",
+      "id": 8206,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_CHALLENGE_REQUEST",
+      "id": 8207,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_CHALLENGE_RESULT_NOTIFY",
+      "id": 8218,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_PLAYER_OUT_MAP_REQUEST",
+      "id": 8219,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_AWARD_REQUEST",
+      "id": 8220,
+      "category": "challenge"
+    },
+    {
+      "name": "ROBOT_AWARD_NOTIFY",
+      "id": 8221,
+      "category": "challenge"
+    },
+    {
+      "name": "PLAYER_CLOAK_IN_CHIP_REQUEST",
+      "id": 12304,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_CHIP_NOTIFY",
+      "id": 12305,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_GET_UP_REQEUST",
+      "id": 12306,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_GET_UP_ANSWER",
+      "id": 12307,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_MELT_REQEUST",
+      "id": 12308,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_MELT_ANSWER",
+      "id": 12309,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_GLYPH_OPEN_UP_REQUEST",
+      "id": 12310,
+      "category": "cloak"
+    },
+    {
+      "name": "PLAYER_CLOAK_GLYPH_NOTIFY",
+      "id": 12311,
+      "category": "cloak"
+    },
+    {
+      "name": "WORLD_LOGOUT_REQ",
+      "id": 35,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_LOGOUT_ANSWER",
+      "id": 36,
+      "category": "command"
+    },
+    {
+      "name": "WORLD_TIME_CHECK_NOTIFY",
+      "id": 51,
+      "category": "command"
+    },
+    {
+      "name": "SYS_VAR_CHANGE_NOTIFY",
+      "id": 65,
+      "category": "command"
+    },
+    {
+      "name": "SYS_VAR_CLEAR_NOTIFY",
+      "id": 66,
+      "category": "command"
+    },
+    {
+      "name": "SET_PLAYER_CONSTELLATION_REQUEST",
+      "id": 4646,
+      "category": "constellation"
+    },
+    {
+      "name": "SET_PLAYER_CONSTELLATION_ANSWER",
+      "id": 4647,
+      "category": "constellation"
+    },
+    {
+      "name": "RESET_PLAYER_CONSTELLATION_NOTIFY",
+      "id": 4648,
+      "category": "constellation"
+    },
+    {
+      "name": "PRAY_PLAYER_CONSTELLATION_REQUEST",
+      "id": 4649,
+      "category": "constellation"
+    },
+    {
+      "name": "LUCK_CHANGE_CONSTELLATION_REQUEST",
+      "id": 4656,
+      "category": "constellation"
+    },
+    {
+      "name": "LUCK_CHANGE_CONSTELLATION_ANSWER",
+      "id": 4657,
+      "category": "constellation"
+    },
+    {
+      "name": "LUCK_GET_CONSTELLATION_REQUEST",
+      "id": 4658,
+      "category": "constellation"
+    },
+    {
+      "name": "LUCK_GET_CONSTELLATION_ANSWER",
+      "id": 4659,
+      "category": "constellation"
+    },
+    {
+      "name": "UP_PLAYER_CONSTELLATION_REQUEST",
+      "id": 4660,
+      "category": "constellation"
+    },
+    {
+      "name": "UP_PLAYER_CONSTELLATION_ANSWER",
+      "id": 4661,
+      "category": "constellation"
+    },
+    {
+      "name": "RECEIVE_TASK_CONSTELLATION_REQUEST",
+      "id": 4662,
+      "category": "constellation"
+    },
+    {
+      "name": "FINISH_TASK_CONSTELLATION_REQUEST",
+      "id": 4663,
+      "category": "constellation"
+    },
+    {
+      "name": "CONSTELLATION_LUCK_NOTIFY",
+      "id": 4664,
+      "category": "constellation"
+    },
+    {
+      "name": "CONSTELLATION_TASK_NOTIFY",
+      "id": 4665,
+      "category": "constellation"
+    },
+    {
+      "name": "PLAYER_COUNTRY_INFO_NOTIFY",
+      "id": 10304,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_UP_COUNTRY_REQUEST",
+      "id": 10305,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_UP_COUNTRY_ANSWER",
+      "id": 10306,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_UP_LAND_REQUEST",
+      "id": 10307,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_UP_LAND_ANSWER",
+      "id": 10308,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_WILLS_NOTIFY",
+      "id": 10309,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_CREATURES_NOTIFY",
+      "id": 10310,
+      "category": "country"
+    },
+    {
+      "name": "PLAYER_ORIGINS_NOTIFY",
+      "id": 10311,
+      "category": "country"
+    },
+    {
+      "name": "DEVIL_GOD_USE_MONEY_REQUEST",
+      "id": 10528,
+      "category": "devilGod"
+    },
+    {
+      "name": "DEVIL_GOD_USE_MONEY_ANSWER",
+      "id": 10529,
+      "category": "devilGod"
+    },
+    {
+      "name": "DEVIL_GOD_EAT_PET_REQUEST",
+      "id": 10530,
+      "category": "devilGod"
+    },
+    {
+      "name": "DEVIL_GOD_EAT_PET_ANSWER",
+      "id": 10531,
+      "category": "devilGod"
+    },
+    {
+      "name": "DEVIL_GOD_INFO_NOTIFY",
+      "id": 10532,
+      "category": "devilGod"
+    },
+    {
+      "name": "PLAYER_GET_FREE_ITEM_REQUEST",
+      "id": 12320,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_DIVINE_UP_LEVEL_REQUEST",
+      "id": 12321,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_DIVINE_LEVEL_NOTIFY",
+      "id": 12322,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_EQUIPMENT_DIVINE_REQUEST",
+      "id": 12323,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_EQUIPMENT_DIVINE_ANSWER",
+      "id": 12324,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_DIVINE_VALUE_NOTIFY",
+      "id": 12325,
+      "category": "divine"
+    },
+    {
+      "name": "PLAYER_DRAGON_UPGRADE_REQUEST",
+      "id": 4641,
+      "category": "dragon"
+    },
+    {
+      "name": "PLAYER_DRAGON_UPGRADE_ANSWER",
+      "id": 4642,
+      "category": "dragon"
+    },
+    {
+      "name": "PLAYER_DRAGON_CHECK_NOTIFY",
+      "id": 4643,
+      "category": "dragon"
+    },
+    {
+      "name": "PLAYER_BUY_UP_CHANCE_REQUEST",
+      "id": 4644,
+      "category": "dragon"
+    },
+    {
+      "name": "PLAYER_BUY_UP_CHANCE_ANSWER",
+      "id": 4645,
+      "category": "dragon"
+    },
+    {
+      "name": "PLAYER_SWITCH_FASHION_REQUEST",
+      "id": 4611,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_EQUIP_DUR_CHECK_NOTIFY",
+      "id": 4613,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_VIEW_REPAIR_INFO_REQUEST",
+      "id": 4618,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_VIEW_REPAIR_INFO_ANSWER",
+      "id": 4619,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_REPAIR_EQUIPMENT_REQUEST",
+      "id": 4620,
+      "category": "equ"
+    },
+    {
+      "name": "PLAYER_REPAIR_EQUIPMENT_ANSWER",
+      "id": 4621,
+      "category": "equ"
+    },
+    {
+      "name": "KIND_GROW_ADD_EXP_REQUEST",
+      "id": 10800,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_ADD_EXP_ANSWER",
+      "id": 10801,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_BREACH_REQUEST",
+      "id": 10802,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_BREACH_ANSWER",
+      "id": 10803,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_BLESS_REQUEST",
+      "id": 10804,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_BLESS_ANSWER",
+      "id": 10805,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_TEMPER_REQUEST",
+      "id": 10806,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_TEMPER_ANSWER",
+      "id": 10807,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_TEMPER_SAVE_REQUEST",
+      "id": 10808,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_TEMPER_SAVE_ANSWER",
+      "id": 10809,
+      "category": "kindGrow"
+    },
+    {
+      "name": "KIND_GROW_INFO_NOTIFY",
+      "id": 10810,
+      "category": "kindGrow"
+    },
+    {
+      "name": "REMARK_SUCCEED_REQUEST",
+      "id": 10752,
+      "category": "extractant"
+    },
+    {
+      "name": "REMARK_REWARD_REQUEST",
+      "id": 10753,
+      "category": "extractant"
+    },
+    {
+      "name": "REMARK_TIMEINFO_NOTIFY",
+      "id": 10754,
+      "category": "extractant"
+    },
+    {
+      "name": "REMARK_EXTRACTANT_UP_LV_ANSWER",
+      "id": 10755,
+      "category": "extractant"
+    },
+    {
+      "name": "PLAYER_CREATE_FAMILY_REQUEST",
+      "id": 8721,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_DISMISS_FAMILY_REQUEST",
+      "id": 8722,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_UPGRADE_FAMILY_REQUEST",
+      "id": 8723,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_INFO_CHECK_REQUEST",
+      "id": 8724,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_INFO_CHECK_NOTIFY",
+      "id": 8725,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_MY_INFO_CHECK_NOTIFY",
+      "id": 8726,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_MEMBER_LIST_CHECK_NOTIFY",
+      "id": 8727,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_MEMBER_ADDED_NOTIFY",
+      "id": 8728,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_MEMBER_REMOVED_NOTIFY",
+      "id": 8729,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_MEMBER_INFO_CHECK_NOTIFY",
+      "id": 8730,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_JOIN_FAMILY_REQUEST",
+      "id": 8737,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_JOIN_FAMILY_LIST_REQUEST",
+      "id": 8738,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_JOIN_FAMILY_LIST_ANSWER",
+      "id": 8739,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_PROCESS_JOIN_FAMILY_REQUEST_REPLY",
+      "id": 8740,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_INVITE_FAMILY_REQUEST",
+      "id": 8741,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_RECEIVE_INVITE_FAMILY_REQUEST_NOTIFY",
+      "id": 8742,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_PROCESS_INVITE_FAMILY_REQUEST_REPLY",
+      "id": 8743,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_INVITE_FAMILY_ANSWER",
+      "id": 8744,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_QUIT_FAMILY_REQUEST",
+      "id": 8753,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_KICK_FAMILY_MEMBER_REQUEST",
+      "id": 8754,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_GIVE_FAMILY_LEADER_REQUEST",
+      "id": 8755,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_LIST_FAMILY_REQUEST",
+      "id": 8769,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_LIST_FAMILY_ANSWER",
+      "id": 8770,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_FAMILY_REQUEST",
+      "id": 8771,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_FAMILY_ANSWER",
+      "id": 8772,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_EDIT_FAMILY_DECLARATION_REQUEST",
+      "id": 8785,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_DECLARATION_CHECK_NOTIFY",
+      "id": 8786,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_EDIT_FAMILY_NOTICE_REQUEST",
+      "id": 8787,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_NOTICE_CHECK_NOTIFY",
+      "id": 8788,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_SET_FAMILY_MEMBER_POST_REQUEST",
+      "id": 8801,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_FAMILY_POST_REQUEST",
+      "id": 8802,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_VIEW_FAMILY_POST_ANSWER",
+      "id": 8803,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_EDIT_FAMILY_POST_REQUEST",
+      "id": 8804,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_SET_FAMILY_MEMBER_TITLE_REQUEST",
+      "id": 8817,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_LIST_FAMILY_TASK_REQUEST",
+      "id": 8833,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_LIST_FAMILY_TASK_ANSWER",
+      "id": 8834,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_GET_FAMILY_TASK_REQUEST",
+      "id": 8835,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_VARS_CHECK_NOTIFY",
+      "id": 8849,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_VAR_CHANGE_NOTIFY",
+      "id": 8850,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_VAR_CLEAR_NOTIFY",
+      "id": 8851,
+      "category": "family"
+    },
+    {
+      "name": "LIST_FAMILY_INT_VAR_REQUEST",
+      "id": 8852,
+      "category": "family"
+    },
+    {
+      "name": "LIST_FAMILY_INT_VAR_ANSWER",
+      "id": 8853,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_INVENT_SKILL_REQUEST",
+      "id": 8865,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_INVENT_SKILL_NOTIFY",
+      "id": 8866,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_BOSS_FEED_REQUEST",
+      "id": 8867,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_BOSS_CALL_REQUEST",
+      "id": 8868,
+      "category": "family"
+    },
+    {
+      "name": "PLAYER_FAMILY_BOSS_CALL_NOTIFY",
+      "id": 8869,
+      "category": "family"
+    },
+    {
+      "name": "FARM_CHECK_NOTIFY",
+      "id": 1793,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_EXP_CHANGE_NOTIFY",
+      "id": 1794,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_RENAME_REQUEST",
+      "id": 1795,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_CHANGE_STYLE_REQUEST",
+      "id": 1796,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_LEVEL_UP_REQUEST",
+      "id": 1797,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_EXP_CHECK_REQUEST",
+      "id": 1798,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_LIST_CHECK_NOTIFY",
+      "id": 1799,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_BUILDING_ADDED_NOTIFY",
+      "id": 1809,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_BUILDING_REMOVED_NOTIFY",
+      "id": 1811,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_BUILDING_REMOVE_REQUEST",
+      "id": 1812,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_BUILDING_RENEW_REQUEST",
+      "id": 1813,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_ADDED_NOTIFY",
+      "id": 1825,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_CHECK_NOTIFY",
+      "id": 1826,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_REMOVED_NOTIFY",
+      "id": 1827,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_COLLECT_TEST_REQUEST",
+      "id": 1828,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_COLLECT_TEST_ANSWER",
+      "id": 1829,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_QUERY_REQUEST",
+      "id": 1841,
+      "category": "farm"
+    },
+    {
+      "name": "FARM_HARVEST_QUERY_ANSWER",
+      "id": 1842,
+      "category": "farm"
+    },
+    {
+      "name": "START_TURNTABLE_REQUEST",
+      "id": 8234,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "START_TURNTABLE_ANSWER",
+      "id": 8235,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "FATE_UP_LEVEL_REQUEST",
+      "id": 8236,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "FATE_UP_LEVEL_ANSWER",
+      "id": 8237,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "FATE_TURNTABLE_INFO_NOTIFY",
+      "id": 8238,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "FATE_TURNTABLE_VALUE_NOTIFY",
+      "id": 8239,
+      "category": "fateTurntable"
+    },
+    {
+      "name": "PLAYER_FAVOR_OFFER_REQUEST",
+      "id": 8229,
+      "category": "favor"
+    },
+    {
+      "name": "PLAYER_FAVOR_OFFER_ANSWER",
+      "id": 8230,
+      "category": "favor"
+    },
+    {
+      "name": "PLAYER_FEED_GOD_NOTIFY",
+      "id": 12816,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_FEED_GOD_REQUEST",
+      "id": 12817,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_FEED_GOD_ANSWER",
+      "id": 12818,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_USE_GOD_REQUEST",
+      "id": 12819,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_USE_GOD_ANSWER",
+      "id": 12820,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_SUM_GOD_REQUEST",
+      "id": 12821,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_SUM_GOD_ANSWER",
+      "id": 12822,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_REFINE_GOD_REQUEST",
+      "id": 12823,
+      "category": "feedGod"
+    },
+    {
+      "name": "PLAYER_REFINE_GOD_ANSWER",
+      "id": 12824,
+      "category": "feedGod"
+    },
+    {
+      "name": "FORGE_GOD_TO_MAP_REQUEST",
+      "id": 12848,
+      "category": "forgeGod"
+    },
+    {
+      "name": "FORGE_GOD_REQUEST",
+      "id": 12849,
+      "category": "forgeGod"
+    },
+    {
+      "name": "FORGE_GOD_INFO_NOTIFY",
+      "id": 12850,
+      "category": "forgeGod"
+    },
+    {
+      "name": "FORGE_GOD_VALUE_NOTIFY",
+      "id": 12851,
+      "category": "forgeGod"
+    },
+    {
+      "name": "PLAYER_FUND_BUY_REQUEST",
+      "id": 12288,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_BUY_NOTIFY",
+      "id": 12289,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_REWARD_REQUEST",
+      "id": 12290,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_WELFARE_REWARD_NOTIFY",
+      "id": 12291,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_WELFARE_REQUEST",
+      "id": 12292,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_REBATE_REQUEST",
+      "id": 12293,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_REBATE_NOTIFY",
+      "id": 12294,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_BUY_NUM_NOTIFY",
+      "id": 12295,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_REBATE_TIMES_NOTIFY",
+      "id": 12296,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_FUND_CREDIT_NOTIFY",
+      "id": 12297,
+      "category": "fund"
+    },
+    {
+      "name": "PLAYER_SET_USING_GENIE_REQUEST",
+      "id": 712,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_USING_GENIE_CHECK_NOTIFY",
+      "id": 706,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_GENIE_ITEM_CHECK_NOTIFY",
+      "id": 707,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_GENIE_UP_LEVEL_REQUEST",
+      "id": 708,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_GENIE_UPGRADE_REQUEST",
+      "id": 709,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_GENIE_UPGRADE_ANSWER",
+      "id": 710,
+      "category": "genie"
+    },
+    {
+      "name": "PLAYER_GENIE_EXP_CHECK_NOTIFY",
+      "id": 711,
+      "category": "genie"
+    },
+    {
+      "name": "SKILL_UP_LEVEL_REQUEST",
+      "id": 714,
+      "category": "GenieMagic"
+    },
+    {
+      "name": "SKILL_LEVEL_NOTIFY",
+      "id": 715,
+      "category": "GenieMagic"
+    },
+    {
+      "name": "SKILL_USE_REQUEST",
+      "id": 716,
+      "category": "GenieMagic"
+    },
+    {
+      "name": "SKILL_USE_NOTIFY",
+      "id": 717,
+      "category": "GenieMagic"
+    },
+    {
+      "name": "GLYPH_INFO_NOTIFY",
+      "id": 10496,
+      "category": "glyph"
+    },
+    {
+      "name": "GLYPH_MASTER_REQUEST",
+      "id": 10497,
+      "category": "glyph"
+    },
+    {
+      "name": "GLYPH_MASTER_ANSWER",
+      "id": 10498,
+      "category": "glyph"
+    },
+    {
+      "name": "GLYPH_UP_REQUEST",
+      "id": 10499,
+      "category": "glyph"
+    },
+    {
+      "name": "GLYPH_UP_ANSWER",
+      "id": 10500,
+      "category": "glyph"
+    },
+    {
+      "name": "GLYPH_UP_MASTER_NOTIFY",
+      "id": 10501,
+      "category": "glyph"
+    },
+    {
+      "name": "GM_COMMAND_REQUEST",
+      "id": 3840,
+      "category": "gm"
+    },
+    {
+      "name": "GM_COMMAND_ANSWER",
+      "id": 3841,
+      "category": "gm"
+    },
+    {
+      "name": "GOD_STYLE_UP_REQUEST",
+      "id": 11008,
+      "category": "godStyle"
+    },
+    {
+      "name": "GOD_STYLE_RANK_NOTIFY",
+      "id": 11009,
+      "category": "godStyle"
+    },
+    {
+      "name": "GOD_STYLE_NOTIFY",
+      "id": 11010,
+      "category": "godStyle"
+    },
+    {
+      "name": "INCUBATOR_TAKE_REQUEST",
+      "id": 12576,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_TAKE_ANSWER",
+      "id": 12577,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_NO_REQUEST",
+      "id": 12578,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_DO_REQUEST",
+      "id": 12579,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_DO_ANSWER",
+      "id": 12580,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_OVER_REQUEST",
+      "id": 12581,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_OVER_ANSWER",
+      "id": 12582,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_SAVE_REQUEST",
+      "id": 12583,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_SAVE_ANSWER",
+      "id": 12584,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_PRESSURE_REQUEST",
+      "id": 12585,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_TEMP_REQUEST",
+      "id": 12586,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_POWER_REQUEST",
+      "id": 12587,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_POWER_ANSWER",
+      "id": 12588,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_INFO_NOTIFY",
+      "id": 12589,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_CHANGE_PRESSURE_TEMP_NOTIFY",
+      "id": 12590,
+      "category": "incubator"
+    },
+    {
+      "name": "INCUBATOR_STATE_NOTIFY",
+      "id": 12591,
+      "category": "incubator"
+    },
+    {
+      "name": "ITEM_MANUAL_INFO_NOTIFY",
+      "id": 10256,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_LOTTERY_REQUEST",
+      "id": 10257,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_LOTTERY_ANSWER",
+      "id": 10258,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SUCCESS_REQUEST",
+      "id": 10259,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SUCCESS_ANSWER",
+      "id": 10260,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SUCCESS_AWARD_REQUEST",
+      "id": 10261,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SUCCESS_AWARD_ANSWER",
+      "id": 10262,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_STAR_VALUE_NOTIFY",
+      "id": 10263,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_LIST_NOTIFY",
+      "id": 10264,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SELL_REQUEST",
+      "id": 10265,
+      "category": "itemManual"
+    },
+    {
+      "name": "ITEM_MANUAL_SELL_ANSWER",
+      "id": 10266,
+      "category": "itemManual"
+    },
+    {
+      "name": "LEGEND_HOLE_REQUEST",
+      "id": 8304,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_HOLE_ANSWER",
+      "id": 8305,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_EMBED_REQUEST",
+      "id": 8306,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_EMBED_ANSWER",
+      "id": 8307,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_REMOVE_REQUEST",
+      "id": 8308,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_REMOVE_ANSWER",
+      "id": 8309,
+      "category": "legend"
+    },
+    {
+      "name": "LEGEND_UP_LEVEL_REQUEST",
+      "id": 8310,
+      "category": "legend"
+    },
+    {
+      "name": "LEGENG_UP_LEVEL_ANSWER",
+      "id": 8311,
+      "category": "legend"
+    },
+    {
+      "name": "LOCK_TOWER_INFO_NOTIFY",
+      "id": 11040,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_BUFF_REQUEST",
+      "id": 11041,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_EAT_REQUEST",
+      "id": 11042,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_UP_REQUEST",
+      "id": 11043,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_FREE_REQUEST",
+      "id": 11044,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_ADD_FLOOR_REQUEST",
+      "id": 11045,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOCK_TOWER_ADD_FLOOR_ANSWER",
+      "id": 11046,
+      "category": "lockTower"
+    },
+    {
+      "name": "LOTTERY_REQUEST",
+      "id": 6497,
+      "category": "lottery"
+    },
+    {
+      "name": "LOTTERY_ANSWER",
+      "id": 6498,
+      "category": "lottery"
+    },
+    {
+      "name": "LOTTERY_LOG_NOTIFY",
+      "id": 6499,
+      "category": "lottery"
+    },
+    {
+      "name": "GAMBLE_START_REQUEST",
+      "id": 6501,
+      "category": "lottery"
+    },
+    {
+      "name": "GAMBLE_START_ANSWER",
+      "id": 6502,
+      "category": "lottery"
+    },
+    {
+      "name": "GAMBLE_STOP_REQUEST",
+      "id": 6503,
+      "category": "lottery"
+    },
+    {
+      "name": "GAMBLE_STOP_ANSWER",
+      "id": 6504,
+      "category": "lottery"
+    },
+    {
+      "name": "PLAYER_FETCH_ONLINEAWARD_REQUEST",
+      "id": 6512,
+      "category": "lottery"
+    },
+    {
+      "name": "PLAYER_FETCHED_ONLINEAWARD_NOTIFY",
+      "id": 6514,
+      "category": "lottery"
+    },
+    {
+      "name": "PLAYER_FINISH_DRAW_REQUEST",
+      "id": 6515,
+      "category": "lottery"
+    },
+    {
+      "name": "MAGIC_CIRCLE_UP_REQUEST",
+      "id": 12864,
+      "category": "magicCircle"
+    },
+    {
+      "name": "MAGIC_CIRCLE_UP_ANSWER",
+      "id": 12865,
+      "category": "magicCircle"
+    },
+    {
+      "name": "MAGIC_CIRCLE_USE_REQUEST",
+      "id": 12866,
+      "category": "magicCircle"
+    },
+    {
+      "name": "MAGIC_CIRCLE_USE_ANSWER",
+      "id": 12867,
+      "category": "magicCircle"
+    },
+    {
+      "name": "MAGIC_CIRCLE_INFO_NOTIFY",
+      "id": 12868,
+      "category": "magicCircle"
+    },
+    {
+      "name": "MAIL_LIST_REQUEST",
+      "id": 6481,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_LIST_ANSWER",
+      "id": 6482,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_VIEW_REQUEST",
+      "id": 6483,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_VIEW_ANSWER",
+      "id": 6484,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_SEND_REQUEST",
+      "id": 6485,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_SEND_ANSWER",
+      "id": 6486,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_DELETE_REQUEST",
+      "id": 6487,
+      "category": "mail"
+    },
+    {
+      "name": "MAIL_NEW_NOTIFY",
+      "id": 6488,
+      "category": "mail"
+    },
+    {
+      "name": "MAKE_KEY_REQUEST",
+      "id": 10384,
+      "category": "makeChip"
+    },
+    {
+      "name": "MAKE_KEY_ANSWER",
+      "id": 10385,
+      "category": "makeChip"
+    },
+    {
+      "name": "OPEN_BOX_REQUEST",
+      "id": 10386,
+      "category": "makeChip"
+    },
+    {
+      "name": "OPEN_BOX_ANSWER",
+      "id": 10387,
+      "category": "makeChip"
+    },
+    {
+      "name": "BREAK_CHIP_REQUEST",
+      "id": 10388,
+      "category": "makeChip"
+    },
+    {
+      "name": "BREAK_CHIP_ANSWER",
+      "id": 10389,
+      "category": "makeChip"
+    },
+    {
+      "name": "MAKE_CHIP_REQUEST",
+      "id": 10390,
+      "category": "makeChip"
+    },
+    {
+      "name": "MAKE_CHIP_ANSWER",
+      "id": 10391,
+      "category": "makeChip"
+    },
+    {
+      "name": "MAKE_CHIP_INFO_NOTIFY",
+      "id": 10392,
+      "category": "makeChip"
+    },
+    {
+      "name": "FREE_GET_BAD_KEY_REQUEST",
+      "id": 10393,
+      "category": "makeChip"
+    },
+    {
+      "name": "FREE_GET_BAD_KEY_ANSWER",
+      "id": 10394,
+      "category": "makeChip"
+    },
+    {
+      "name": "MAP_CLEAR_INFO_CHECK_NOTIFY",
+      "id": 1585,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEARED_NOTIFY",
+      "id": 1586,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEAR_BONUS_REQUEST",
+      "id": 1587,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEAR_BONUS_ANSWER",
+      "id": 1588,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEAR_DO_MACRO_REQUEST",
+      "id": 1589,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEAR_RANKING_REQUEST",
+      "id": 1590,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_CLEAR_RANKING_ANSWER",
+      "id": 1591,
+      "category": "clear"
+    },
+    {
+      "name": "MAP_TELEPORT_REQUEST",
+      "id": 1539,
+      "category": "map"
+    },
+    {
+      "name": "FARM_TELEPORT_REQUEST",
+      "id": 1540,
+      "category": "map"
+    },
+    {
+      "name": "MAP_VAR_CHANGE_NOTIFY",
+      "id": 1541,
+      "category": "map"
+    },
+    {
+      "name": "MAP_VAR_CLEAR_NOTIFY",
+      "id": 1542,
+      "category": "map"
+    },
+    {
+      "name": "MAP_REFRESH_NOTIFY",
+      "id": 1543,
+      "category": "map"
+    },
+    {
+      "name": "MAP_NPC_SAY_NOTIFY",
+      "id": 1544,
+      "category": "map"
+    },
+    {
+      "name": "MAP_DAMAGE_VALUE_CHECK_NOTIFY",
+      "id": 1601,
+      "category": "map"
+    },
+    {
+      "name": "MAP_DAMAGE_RANK_CHECK_NOTIFY",
+      "id": 1602,
+      "category": "map"
+    },
+    {
+      "name": "MAP_TOWER_NOTIFY",
+      "id": 1592,
+      "category": "tower"
+    },
+    {
+      "name": "PLAYER_MATE_RELATION_CHECK_NOTIFY",
+      "id": 9217,
+      "category": "mate"
+    },
+    {
+      "name": "PLAYER_MATE_VAR_CHANGE_NOTIFY",
+      "id": 9218,
+      "category": "mate"
+    },
+    {
+      "name": "PLAYER_MATE_VAR_CLEAR_NOTIFY",
+      "id": 9219,
+      "category": "mate"
+    },
+    {
+      "name": "USE_GIFT_CDKEY_REQUEST",
+      "id": 12033,
+      "category": "misc"
+    },
+    {
+      "name": "USE_GIFT_CDKEY_ANSWER",
+      "id": 12034,
+      "category": "misc"
+    },
+    {
+      "name": "MONSTER_BORN_NOTIFY",
+      "id": 1281,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_MOVE_NOTIFY",
+      "id": 1283,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_POSITION_CHECK_NOTIFY",
+      "id": 1284,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_USE_SKILL_NOTIFY",
+      "id": 1285,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_BUFF_CHANGE_NOTIFY",
+      "id": 1287,
+      "category": "monster"
+    },
+    {
+      "name": "MONSTER_REMOVED_NOTIFY",
+      "id": 1288,
+      "category": "monster"
+    },
+    {
+      "name": "MANUAL_VIEW_REQUEST",
+      "id": 10240,
+      "category": "monsterManual"
+    },
+    {
+      "name": "MANUAL_VIEW_ANSWER",
+      "id": 10241,
+      "category": "monsterManual"
+    },
+    {
+      "name": "MANUAL_ABSORB_REQUEST",
+      "id": 10242,
+      "category": "monsterManual"
+    },
+    {
+      "name": "MANUAL_ABSORB_ANSWER",
+      "id": 10243,
+      "category": "monsterManual"
+    },
+    {
+      "name": "NPC_ASSEMBLE_ITEM_REQUEST",
+      "id": 1026,
+      "category": "npc"
+    },
+    {
+      "name": "NPC_ASSEMBLE_ITEM_ANSWER",
+      "id": 1027,
+      "category": "npc"
+    },
+    {
+      "name": "NPC_EXEC_SCRIPTS_TO_TARGET_REQUEST",
+      "id": 1028,
+      "category": "npc"
+    },
+    {
+      "name": "ONLINE_BONUS_CHECK_NOTIFY",
+      "id": 6433,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "ONLINE_BONUS_FETCH_REQUEST",
+      "id": 6434,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "ONLINE_COIN_CHECK_NOTIFY",
+      "id": 6435,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "ONLINE_COIN_FETCH_REQUEST",
+      "id": 6436,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "OFFLINE_BONUS_CHECK_NOTIFY",
+      "id": 6442,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "OFFLINE_BONUS_FETCH_REQUEST",
+      "id": 6443,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "OFFLINE_BONUS_FETCH_ANSWER",
+      "id": 6444,
+      "category": "onlineBonus"
+    },
+    {
+      "name": "PASS_TICKET_INFO_NOTIFY",
+      "id": 12928,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_BUY_REQUEST",
+      "id": 12929,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_FINISH_TASK_REQUEST",
+      "id": 12930,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_AWARD_REQUEST",
+      "id": 12931,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_TASK_NOTIFY",
+      "id": 12932,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_AWARD_INFO_NOTIFY",
+      "id": 12933,
+      "category": "passTicket"
+    },
+    {
+      "name": "PASS_TICKET_SYS_INFO_NOTIFY",
+      "id": 12934,
+      "category": "passTicket"
+    },
+    {
+      "name": "PET_ATTR_INT_CHANGE_NOTIFY",
+      "id": 5379,
+      "category": "pet"
+    },
+    {
+      "name": "PET_RENAME_REQUEST",
+      "id": 5380,
+      "category": "pet"
+    },
+    {
+      "name": "PET_FORGET_SKILL_REQUEST",
+      "id": 5381,
+      "category": "pet"
+    },
+    {
+      "name": "PET_ASSIGN_ATTR_REQUEST",
+      "id": 5382,
+      "category": "pet"
+    },
+    {
+      "name": "PET_LEARN_SKILL_REQUEST",
+      "id": 5383,
+      "category": "pet"
+    },
+    {
+      "name": "PET_LEARN_SKILL_ANSWER",
+      "id": 5384,
+      "category": "pet"
+    },
+    {
+      "name": "PET_USE_SKILL_NOTIFY",
+      "id": 5409,
+      "category": "pet"
+    },
+    {
+      "name": "PET_HP_CHANGE_NOTIFY",
+      "id": 5410,
+      "category": "pet"
+    },
+    {
+      "name": "PLAYER_SET_PET_ACTION_MODE_REQUEST",
+      "id": 5411,
+      "category": "pet"
+    },
+    {
+      "name": "PLAYER_PET_ACTION_MODE_CHANGE_NOTIFY",
+      "id": 5412,
+      "category": "pet"
+    },
+    {
+      "name": "PET_ENHANCE_REQUEST",
+      "id": 5413,
+      "category": "pet"
+    },
+    {
+      "name": "PET_ENHANCE_ANSWER",
+      "id": 5414,
+      "category": "pet"
+    },
+    {
+      "name": "PET_FUSION_REQUEST",
+      "id": 5415,
+      "category": "pet"
+    },
+    {
+      "name": "PET_FUSION_ANSWER",
+      "id": 5416,
+      "category": "pet"
+    },
+    {
+      "name": "PET_REMOVE_EQUIPMENT_REQUEST",
+      "id": 5424,
+      "category": "pet"
+    },
+    {
+      "name": "PET_DECOMPOSE_REQUEST",
+      "id": 5431,
+      "category": "pet"
+    },
+    {
+      "name": "PETDEPOT_ADD_REQUEST",
+      "id": 8320,
+      "category": "petDepot"
+    },
+    {
+      "name": "PETDEPOT_REMOVE_REQUEST",
+      "id": 8321,
+      "category": "petDepot"
+    },
+    {
+      "name": "PETDEPOT_UPLEVEL_REQUEST",
+      "id": 8322,
+      "category": "petDepot"
+    },
+    {
+      "name": "PETDEPOT_UPLEVEL_ANSWER",
+      "id": 8323,
+      "category": "petDepot"
+    },
+    {
+      "name": "PETDEPOT_ITEMS_NOYIFY",
+      "id": 8324,
+      "category": "petDepot"
+    },
+    {
+      "name": "PIS_CHECK_NOTIFY",
+      "id": 12049,
+      "category": "pis"
+    },
+    {
+      "name": "PIS_SET_ID_CARD_REQUEST",
+      "id": 12050,
+      "category": "pis"
+    },
+    {
+      "name": "BONE_MELT_REQUEST",
+      "id": 4944,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_MELT_ANSWER",
+      "id": 4945,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_REFINE_REQUEST",
+      "id": 4946,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_REFINE_ANSWER",
+      "id": 4947,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_UP_LEVEL_REQUEST",
+      "id": 4948,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_UP_LEVEL_ANSWER",
+      "id": 4949,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_ATTR_REQUEST",
+      "id": 4950,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_ATTR_ANSWER",
+      "id": 4951,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_OPEN_REQUEST",
+      "id": 4952,
+      "category": "bone"
+    },
+    {
+      "name": "BONE_OPEN_ANSWER",
+      "id": 4953,
+      "category": "bone"
+    },
+    {
+      "name": "PLAYER_LEAVE_WORLD_REQ",
+      "id": 515,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LEAVE_WORLD_ANSWER",
+      "id": 516,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SELECT_LINE_REQ",
+      "id": 523,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LUCKY_SKILL_NOTIFY",
+      "id": 547,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_CANCEL_SKILL_REQ",
+      "id": 548,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SKILL_INTERRUPTED_NOTIFY",
+      "id": 549,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_HPMAX_CHANGE_NOTIFY",
+      "id": 551,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_MPMAX_CHANGE_NOTIFY",
+      "id": 553,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_BUFF_CHANGE_NOTIFY",
+      "id": 560,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_DIED_NOTIFY",
+      "id": 565,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RECEIVE_REBIRTH_SKILL_NOTIFY",
+      "id": 566,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_COMBAT_STATUS_CHECK_NOTIFY",
+      "id": 570,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_XP_CHANGE_NOTIFY",
+      "id": 571,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_XPMAX_CHANGE_NOTIFY",
+      "id": 572,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SP_CHANGE_NOTIFY",
+      "id": 576,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SPMAX_CHANGE_NOTIFY",
+      "id": 577,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RECEIVE_SYS_PROMPT_NOTIFY",
+      "id": 675,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_FARM_SKILL_EXP_CHANGE_NOTIFY",
+      "id": 579,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_FARM_SKILL_LEVEL_UP_NOTIFY",
+      "id": 580,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_VIEW_REMOTE_REQUEST",
+      "id": 581,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_VIEW_REMOTE_ANSWER",
+      "id": 582,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_USE_MOTION_REQUEST",
+      "id": 585,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_USE_MOTION_NOTIFY",
+      "id": 586,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_STATUS_CHANGE_NOTIFY",
+      "id": 587,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_HAIR_STYLE_CHANGE_NOTIFY",
+      "id": 588,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_COIN_CHANGE_NOTIFY",
+      "id": 589,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_PASSIVE_RIDE_REQUEST",
+      "id": 595,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RECEIVE_PASSIVE_RIDE_REQUEST_NOTIFY",
+      "id": 596,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_PROCESS_PASSIVE_RIDE_REQUEST_REPLY",
+      "id": 597,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_KICK_RIDE_REQUEST",
+      "id": 601,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_FUSION_REQUEST",
+      "id": 606,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_FUSION_ANSWER",
+      "id": 607,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_DECOMPOSE_REQUEST",
+      "id": 619,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_RIDE_ITEM_CHECK_NOTIFY",
+      "id": 604,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_DYNAMIC_VAR_CHANGE_NOTIFY",
+      "id": 609,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_DYNAMIC_VAR_CLEAR_NOTIFY",
+      "id": 610,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_KILLED_MONSTER_CHANGE_NOTIFY",
+      "id": 611,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_DO_CLIENT_MACRO_NOTIFY",
+      "id": 612,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_COUNTER_CHECK_NOTIFY",
+      "id": 613,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_KILLED_MONSTER_OF_SUCCESS_CHANGE_NOTIFY",
+      "id": 614,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LIFE_JOB_CHANGE_NOTIFY",
+      "id": 625,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LIFE_EXP_CHANGE_NOTIFY",
+      "id": 626,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_LIFE_LEVEL_UP_NOTIFY",
+      "id": 627,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SET_PK_MODE_REQUEST",
+      "id": 641,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_PK_MODE_CHANGE_NOTIFY",
+      "id": 642,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_PK_VALUE_CHANGE_NOTIFY",
+      "id": 643,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_VIP_CHECK_NOTIFY",
+      "id": 691,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SET_TITLE_REQUEST",
+      "id": 692,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_TITLE_CHECK_NOTIFY",
+      "id": 693,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_TITLE_LIST_CHECK_NOTIFY",
+      "id": 694,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SIDE_CHECK_NOTIFY",
+      "id": 695,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_SET_KIT_TITLE_REQUEST",
+      "id": 696,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_KIT_TITLE_CHECK_NOTIFY",
+      "id": 697,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_BELIEF_CHECK_NOTIFY",
+      "id": 698,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_MAP_HONOR_CHECK_NOTIFY",
+      "id": 702,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_REPORT_REMOTE_REQUEST",
+      "id": 700,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_CALL_TRAINER_NOTIFY",
+      "id": 720,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_CHANGE_MODEL_NOTIFY",
+      "id": 739,
+      "category": "player"
+    },
+    {
+      "name": "PLAYER_CHANGE_MODEL_END_REQUEST",
+      "id": 740,
+      "category": "player"
+    },
+    {
+      "name": "GOD_SOUL_ADD_EQUIPMENT_REQUEST",
+      "id": 10272,
+      "category": "godSoul"
+    },
+    {
+      "name": "GOD_SOUL_REMOVE_EQUIPMENT_REQUEST",
+      "id": 10273,
+      "category": "godSoul"
+    },
+    {
+      "name": "GOD_SOUL_EQUIPMENT_NOTIFY",
+      "id": 10274,
+      "category": "godSoul"
+    },
+    {
+      "name": "GOD_SOUL_UP_LEVEL_REQUEST",
+      "id": 10275,
+      "category": "godSoul"
+    },
+    {
+      "name": "GOD_SOUL_INFO_NOTIFY",
+      "id": 10276,
+      "category": "godSoul"
+    },
+    {
+      "name": "POCKET_ADD_STONE_REQUEST",
+      "id": 11072,
+      "category": "pocket"
+    },
+    {
+      "name": "POCKET_ADD_STONE_ANSWER",
+      "id": 11073,
+      "category": "pocket"
+    },
+    {
+      "name": "POCKET_ITEM_IN_OUT_REQUEST",
+      "id": 11074,
+      "category": "pocket"
+    },
+    {
+      "name": "POCKET_ITEM_IN_OUT_ANSWER",
+      "id": 11075,
+      "category": "pocket"
+    },
+    {
+      "name": "POCKET_REFINERY_REQUEST",
+      "id": 11076,
+      "category": "pocket"
+    },
+    {
+      "name": "POCKET_INFO_NOTIFY",
+      "id": 11077,
+      "category": "pocket"
+    },
+    {
+      "name": "REWARD_FINISH_TASK_REQUEST",
+      "id": 10537,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_INFO_NOTIFY",
+      "id": 10544,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_ALL_TASK_NOTIFY",
+      "id": 10545,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_TASK_NOTIFY",
+      "id": 10546,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_SUCCESS_NOTIFY",
+      "id": 10547,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_AWARD_REQUEST",
+      "id": 10548,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_AWARD_ANSWER",
+      "id": 10549,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_ADD_ALL_EXP_REQUEST",
+      "id": 10550,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_ALL_INFO_NOTIFY",
+      "id": 10551,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_OVER_AWARD_REQUEST",
+      "id": 10552,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_OVER_AWARD_ANSWER",
+      "id": 10553,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_ALL_TASK_REQUEST",
+      "id": 10554,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_IN_TASK_REQUEST",
+      "id": 10555,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_OUT_TASK_REQUEST",
+      "id": 10556,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_SHOP_BUY_REQUEST",
+      "id": 10557,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_PLAYER_SP_REQUEST",
+      "id": 10558,
+      "category": "reward"
+    },
+    {
+      "name": "REWARD_ALL_SP_REQUEST",
+      "id": 10559,
+      "category": "reward"
+    },
+    {
+      "name": "VACANT_SPACE_INFO_NOTIFY",
+      "id": 12880,
+      "category": "vacantSpace"
+    },
+    {
+      "name": "VACANT_SPACE_BALL_UP_REQUEST",
+      "id": 12881,
+      "category": "vacantSpace"
+    },
+    {
+      "name": "VACANT_SPACE_BALL_UP_ANSWER",
+      "id": 12882,
+      "category": "vacantSpace"
+    },
+    {
+      "name": "VACANT_SPACE_BALL_IN_REQUEST",
+      "id": 12883,
+      "category": "vacantSpace"
+    },
+    {
+      "name": "VACANT_SPACE_BALL_IN_ANSWER",
+      "id": 12884,
+      "category": "vacantSpace"
+    },
+    {
+      "name": "PLAYER_SPLIT_ITEM_REQUEST",
+      "id": 5126,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_MOVE_ITEM_CROSS_BAG_REQUEST",
+      "id": 5128,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_VIEW_BAG_REQUEST",
+      "id": 5129,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_ITEM_CD_CHECK_NOTIFY",
+      "id": 5132,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_RENEW_ITEM_REQUEST",
+      "id": 5137,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_BUY_AND_USE_ITEM_REQUEST",
+      "id": 5138,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_BAG_SORT_REQUEST",
+      "id": 5141,
+      "category": "playerBag"
+    },
+    {
+      "name": "PLAYER_BOOK_TIME_POINT_NOTIFY",
+      "id": 10396,
+      "category": "playerBook"
+    },
+    {
+      "name": "PLAYER_BOOK_UP_REQUEST",
+      "id": 10397,
+      "category": "playerBook"
+    },
+    {
+      "name": "PLAYER_BOOK_UP_ANSWER",
+      "id": 10398,
+      "category": "playerBook"
+    },
+    {
+      "name": "PLAYER_BOOK_INFO_NOTIFY",
+      "id": 10399,
+      "category": "playerBook"
+    },
+    {
+      "name": "PLAYER_SET_USING_DEVIL_REQUEST",
+      "id": 752,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_USING_DEVIL_CHECK_NOTIFY",
+      "id": 762,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_DEVIL_ITEM_CHECK_NOTIFY",
+      "id": 763,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_DEVIL_UP_LEVEL_REQUEST",
+      "id": 764,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_DEVIL_UPGRADE_REQUEST",
+      "id": 765,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_DEVIL_UPGRADE_ANSWER",
+      "id": 766,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_DEVIL_EXP_CHECK_NOTIFY",
+      "id": 767,
+      "category": "playerDevil"
+    },
+    {
+      "name": "PLAYER_CARD_START_REQUEST",
+      "id": 9472,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_START_ANSWER",
+      "id": 9473,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_TURN_REQUEST",
+      "id": 9474,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_TURN_ANSWER",
+      "id": 9475,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_TURN_NOTIFY",
+      "id": 9476,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_GAME_TIMES_NOTIFY",
+      "id": 9477,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_ADD_TIMES_REQUEST",
+      "id": 9478,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_BOUN_REQUEST",
+      "id": 9479,
+      "category": "playingCard"
+    },
+    {
+      "name": "PLAYER_CARD_BOUN_ANSWER",
+      "id": 9480,
+      "category": "playingCard"
+    },
+    {
+      "name": "RANKING_LIST_VIEW_REQUEST",
+      "id": 6465,
+      "category": "ranking"
+    },
+    {
+      "name": "RANKING_LIST_VIEW_ANSWER",
+      "id": 6466,
+      "category": "ranking"
+    },
+    {
+      "name": "PLAYER_RE_GROW_REQUEST",
+      "id": 12560,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_RE_GROW_ANSWER",
+      "id": 12561,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_IN_OUT_EXP_REQUEST",
+      "id": 12562,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_IN_OUT_EXP_ANSWER",
+      "id": 12563,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_MAKE_ITEM_REQUEST",
+      "id": 12564,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_MAKE_ITEM_ANSWER",
+      "id": 12565,
+      "category": "reGrow"
+    },
+    {
+      "name": "PLAYER_RE_GROW_NOTIFY",
+      "id": 12566,
+      "category": "reGrow"
+    },
+    {
+      "name": "REMOTE_LUCKY_SKILL_NOTIFY",
+      "id": 802,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_SKILL_INTERRUPTED_NOTIFY",
+      "id": 803,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_HP_CHANGE_NOTIFY",
+      "id": 804,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_MP_CHANGE_NOTIFY",
+      "id": 805,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_BUFF_CHANGE_NOTIFY",
+      "id": 806,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_LEVEL_UP_NOTIFY",
+      "id": 807,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_DIED_NOTIFY",
+      "id": 808,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_REBIRTH_LOCALLY_NOTIFY",
+      "id": 809,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_SIT_CHECK_NOTIFY",
+      "id": 810,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_USE_MOTION_NOTIFY",
+      "id": 811,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_STATUS_CHANGE_NOTIFY",
+      "id": 812,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_HAIR_STYLE_CHANGE_NOTIFY",
+      "id": 813,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_RIDE_CHECK_NOTIFY",
+      "id": 849,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_GENIE_CHECK_NOTIFY",
+      "id": 853,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_DRAGON_CHECK_NOTIFY",
+      "id": 856,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_PET_CHECK_NOTIFY",
+      "id": 858,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_BLESS_CHECK_NOTIFY",
+      "id": 859,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_BOOTH_CHECK_NOTIFY",
+      "id": 860,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_VIP_CHECK_NOTIFY",
+      "id": 861,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_HONOR_LEVEL_CHECK_NOTIFY",
+      "id": 862,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_PK_MODE_CHANGE_NOTIFY",
+      "id": 898,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_PK_VALUE_CHANGE_NOTIFY",
+      "id": 899,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_TEAM_CHECK_NOTIFY",
+      "id": 913,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_FAMILY_CHECK_NOTIFY",
+      "id": 929,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_MATE_CHECK_NOTIFY",
+      "id": 945,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_SIDE_CHECK_NOTIFY",
+      "id": 947,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_CALL_TRAINER_NOTIFY",
+      "id": 948,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_CHANGE_MODEL_NOTIFY",
+      "id": 949,
+      "category": "remote"
+    },
+    {
+      "name": "REMOTE_DEVIL_CHECK_NOTIFY",
+      "id": 950,
+      "category": "remote"
+    },
+    {
+      "name": "RIDEDEPOT_ADD_REQUEST",
+      "id": 8325,
+      "category": "rideDepot"
+    },
+    {
+      "name": "RIDEDEPOT_REMOVE_REQUEST",
+      "id": 8326,
+      "category": "rideDepot"
+    },
+    {
+      "name": "RIDEDEPOT_UPLEVEL_REQUEST",
+      "id": 8327,
+      "category": "rideDepot"
+    },
+    {
+      "name": "RIDEDEPOT_UPLEVEL_ANSWER",
+      "id": 8328,
+      "category": "rideDepot"
+    },
+    {
+      "name": "RIDEDEPOT_ITEMS_NOYIFY",
+      "id": 8329,
+      "category": "rideDepot"
+    },
+    {
+      "name": "RIDE_EQUIP_DO_REQUEST",
+      "id": 753,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_EQUIP_UP_ANSWER",
+      "id": 754,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_EQUIP_REFINE_ANSWER",
+      "id": 755,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_EQUIP_RECREATE_ANSWER",
+      "id": 756,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_SAVE_CHANGE_REQUEST",
+      "id": 757,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_EQUIP_INHERIT_REQUEST",
+      "id": 758,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "RIDE_EQUIP_INHERIT_ANSWER",
+      "id": 759,
+      "category": "rideEquipment"
+    },
+    {
+      "name": "PLAYER_RUN_ONLINE_TIME_NOTIFY",
+      "id": 9056,
+      "category": "runningMan"
+    },
+    {
+      "name": "PLAYER_RUN_AWARD_NOTIFY",
+      "id": 9057,
+      "category": "runningMan"
+    },
+    {
+      "name": "PLAYER_RUN_AWARD_REQUEST",
+      "id": 9058,
+      "category": "runningMan"
+    },
+    {
+      "name": "LEAD_ITEM_INFO_NOTIFY",
+      "id": 2820,
+      "category": "shop"
+    },
+    {
+      "name": "LEAD_ITEM_INFO_REQUEST",
+      "id": 2821,
+      "category": "shop"
+    },
+    {
+      "name": "LEAD_BUY_ITEM_REQUEST",
+      "id": 2822,
+      "category": "shop"
+    },
+    {
+      "name": "VIP_SHOP_BUY_ITEM_REQUEST",
+      "id": 2823,
+      "category": "shop"
+    },
+    {
+      "name": "PLAYER_FRIEND_CHECK_NOTIFY",
+      "id": 8961,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_ADD_FRIEND_REQUEST",
+      "id": 8962,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_RECEIVE_ADD_FRIEND_REQUEST_NOTIFY",
+      "id": 8963,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_PROCESS_ADD_FRIEND_REQUEST_REPLY",
+      "id": 8964,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_ADD_FRIEND_ANSWER",
+      "id": 8965,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_REMOVE_FRIEND_REQUEST",
+      "id": 8966,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_REMOVED_FRIEND_NOTIFY",
+      "id": 8967,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_SEND_GIFT_REQUEST",
+      "id": 8976,
+      "category": "friend"
+    },
+    {
+      "name": "PLAYER_RECEIVE_GIFT_NOTIFY",
+      "id": 8977,
+      "category": "friend"
+    },
+    {
+      "name": "SOUL_GUARD_UP_REQUEST",
+      "id": 10368,
+      "category": "soulGuard"
+    },
+    {
+      "name": "SOUL_GUARD_UP_ANSWER",
+      "id": 10369,
+      "category": "soulGuard"
+    },
+    {
+      "name": "SOUL_BLESS_UP_REQUEST",
+      "id": 10370,
+      "category": "soulGuard"
+    },
+    {
+      "name": "SOUL_BLESS_UP_ANSWER",
+      "id": 10371,
+      "category": "soulGuard"
+    },
+    {
+      "name": "SOUL_GUARD_INFO_NOTIFY",
+      "id": 10372,
+      "category": "soulGuard"
+    },
+    {
+      "name": "PLAYER_STARS_UP_CHART_REQUEST",
+      "id": 10320,
+      "category": "starAdventure"
+    },
+    {
+      "name": "PLAYER_STARS_INFO_NOTIFY",
+      "id": 10321,
+      "category": "starAdventure"
+    },
+    {
+      "name": "PLAYER_STARS_ADVENTURE_REQUEST",
+      "id": 10322,
+      "category": "starAdventure"
+    },
+    {
+      "name": "PLAYER_STARS_ADVENTURE_ANSWER",
+      "id": 10323,
+      "category": "starAdventure"
+    },
+    {
+      "name": "PLAYER_STIRP_POTENTIAL_REQUEST",
+      "id": 11296,
+      "category": "stirp"
+    },
+    {
+      "name": "PLAYER_STIRP_LVUP_REQUEST",
+      "id": 11297,
+      "category": "stirp"
+    },
+    {
+      "name": "PLAYER_STIRP_LVUP_ANSWER",
+      "id": 11298,
+      "category": "stirp"
+    },
+    {
+      "name": "PLAYER_STIRP_POTENTIAL_VALUE_NOTIFY",
+      "id": 11299,
+      "category": "stirp"
+    },
+    {
+      "name": "PLAYER_FINISH_SUCCESS_REQUEST",
+      "id": 5895,
+      "category": "success"
+    },
+    {
+      "name": "PLAYER_SUCCESS_INFO_NOTIFY",
+      "id": 5897,
+      "category": "success"
+    },
+    {
+      "name": "WORLD_SUCCESS_TIMES_REQUEST",
+      "id": 5904,
+      "category": "success"
+    },
+    {
+      "name": "WORLD_SUCCESS_TIMES_ANSWER",
+      "id": 5905,
+      "category": "success"
+    },
+    {
+      "name": "SYSMSG_NEW_NOTIFY",
+      "id": 6401,
+      "category": "sysmsg"
+    },
+    {
+      "name": "SYSMSG_VIEW_REQUEST",
+      "id": 6402,
+      "category": "sysmsg"
+    },
+    {
+      "name": "SYSMSG_VIEW_ANSWER",
+      "id": 6403,
+      "category": "sysmsg"
+    },
+    {
+      "name": "PLAYER_TEAM_LEADER_CHANGE_NOTIFY",
+      "id": 8451,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_MEMBER_HP_CHANGE_NOTIFY",
+      "id": 8452,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_MEMBER_MP_CHANGE_NOTIFY",
+      "id": 8453,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_JOIN_TEAM_REQUEST",
+      "id": 8467,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_RECEIVE_JOIN_TEAM_REQUEST_NOTIFY",
+      "id": 8468,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_PROCESS_JOIN_TEAM_REQUEST_REPLY",
+      "id": 8469,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_JOIN_TEAM_ANSWER",
+      "id": 8470,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_INVITE_TEAM_ANSWER",
+      "id": 8474,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_GIVE_TEAM_LEADER_REQUEST",
+      "id": 8475,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_RECEIVE_GIVE_TEAM_LEADER_REQUEST_NOTIFY",
+      "id": 8476,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_PROCESS_GIVE_TEAM_LEADER_REQUEST_REPLY",
+      "id": 8477,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_GIVE_TEAM_LEADER_ANSWER",
+      "id": 8478,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_KICK_TEAM_MEMBER_REQUEST",
+      "id": 8480,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_AUTO_TEAM_REQUEST",
+      "id": 8481,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_SET_TEAM_ITEM_MODE_REQUEST",
+      "id": 8482,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_ITEM_MODE_CHECK_NOTIFY",
+      "id": 8483,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_ROLL_ITEMS_CHECK_NOTIFY",
+      "id": 8484,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_ROLL_ITEM_ADDED_NOTIFY",
+      "id": 8485,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_ROLL_ITEM_REQUEST",
+      "id": 8486,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_ROLL_ITEM_ANSWER",
+      "id": 8487,
+      "category": "team"
+    },
+    {
+      "name": "PLAYER_TEAM_ROLL_RESULT_NOTIFY",
+      "id": 8488,
+      "category": "team"
+    },
+    {
+      "name": "TOTEM_UP_LEVEL_STAGE_REQUEST",
+      "id": 8336,
+      "category": "totem"
+    },
+    {
+      "name": "TOTEM_UP_LEVEL_STAGE_ANSWER",
+      "id": 8337,
+      "category": "totem"
+    },
+    {
+      "name": "TOTEM_ENTER_MAP_REQUEST",
+      "id": 8338,
+      "category": "totem"
+    },
+    {
+      "name": "TOTEM_INFO_NOTIFY",
+      "id": 8339,
+      "category": "totem"
+    },
+    {
+      "name": "CLICK_LVUP_TOWER_REQUEST",
+      "id": 8224,
+      "category": "tower"
+    },
+    {
+      "name": "CLICK_LVUP_TOWER_ANSWER",
+      "id": 8225,
+      "category": "tower"
+    },
+    {
+      "name": "ENTER_TOWER_REQUEST",
+      "id": 8226,
+      "category": "tower"
+    },
+    {
+      "name": "PLAYER_INVITE_TRADE_REQUEST",
+      "id": 2897,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_RECEIVE_INVITE_TRADE_REQUEST_NOTIFY",
+      "id": 2898,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_PROCESS_INVITE_TRADE_REQUEST_REPLY",
+      "id": 2899,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_INVITE_TRADE_ANSWER",
+      "id": 2900,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_BEGIN_NOTIFY",
+      "id": 2913,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_ITEM_SUBMIT_REQUEST",
+      "id": 2914,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_ITEM_SUBMIT_NOTIFY",
+      "id": 2915,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_CONFIRM_REQUEST",
+      "id": 2916,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_CONFIRM_NOTIFY",
+      "id": 2917,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_CANCEL_REQUEST",
+      "id": 2918,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_END_NOTIFY",
+      "id": 2919,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_CHECK_REQUEST",
+      "id": 2920,
+      "category": "trade"
+    },
+    {
+      "name": "PLAYER_TRADE_CHECK_ANSWER",
+      "id": 2921,
+      "category": "trade"
+    },
+    {
+      "name": "MAP_TRAP_ADDED_NOTIFY",
+      "id": 1569,
+      "category": "trap"
+    },
+    {
+      "name": "MAP_TRAP_REMOVED_NOTIFY",
+      "id": 1570,
+      "category": "trap"
+    },
+    {
+      "name": "MAP_TRAP_USE_SKILL_NOTIFY",
+      "id": 1571,
+      "category": "trap"
+    },
+    {
+      "name": "TREASURY_INFO_NOTIFY",
+      "id": 12592,
+      "category": "treasury"
+    },
+    {
+      "name": "TREASURY_USE_ITEM_REQUEST",
+      "id": 12593,
+      "category": "treasury"
+    },
+    {
+      "name": "TREASURY_USE_ITEM_ANSWER",
+      "id": 12594,
+      "category": "treasury"
+    },
+    {
+      "name": "TREASURY_ATTR_NOTIFY",
+      "id": 12595,
+      "category": "treasury"
+    },
+    {
+      "name": "TREASURY_LEVEL_NOTIFY",
+      "id": 12596,
+      "category": "treasury"
+    },
+    {
+      "name": "TREASURY_EXP_NOTIFY",
+      "id": 12597,
+      "category": "treasury"
+    },
+    {
+      "name": "TREE_ADD_EXP_REQUEST",
+      "id": 11056,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_ADD_EXP_ANSWER",
+      "id": 11057,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_UP_RANK_REQUEST",
+      "id": 11058,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_UP_RANK_ANSWER",
+      "id": 11059,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_GET_ITEM_REQUEST",
+      "id": 11060,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_GET_ITEM_ANSWER",
+      "id": 11061,
+      "category": "tree"
+    },
+    {
+      "name": "TREE_INFO_NOTIFY",
+      "id": 11062,
+      "category": "tree"
+    },
+    {
+      "name": "VAR_SHOP_BUY_REQUEST",
+      "id": 10560,
+      "category": "varShop"
+    },
+    {
+      "name": "VAR_SHOP_BUY_ANSWER",
+      "id": 10561,
+      "category": "varShop"
+    },
+    {
+      "name": "WARDRODE_ADD_REQUEST",
+      "id": 8293,
+      "category": "wardrobe"
+    },
+    {
+      "name": "WARDRODE_REMOVE_REQUEST",
+      "id": 8294,
+      "category": "wardrobe"
+    },
+    {
+      "name": "WARDRODE_UPLEVEL_REQUEST",
+      "id": 8295,
+      "category": "wardrobe"
+    },
+    {
+      "name": "WARDRODE_UPLEVEL_ANSWER",
+      "id": 8296,
+      "category": "wardrobe"
+    },
+    {
+      "name": "WARDRODE_ITEMS_NOYIFY",
+      "id": 8297,
+      "category": "wardrobe"
+    },
+    {
+      "name": "PLAYER_WING_SPIRIT_REQUEST",
+      "id": 12544,
+      "category": "wingSpirit"
+    },
+    {
+      "name": "PLAYER_WING_SPIRIT_ANSWER",
+      "id": 12545,
+      "category": "wingSpirit"
+    }
+  ]
+}

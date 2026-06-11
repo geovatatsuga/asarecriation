@@ -1,0 +1,213 @@
+"""
+Enumeradores de atributos do sistema de RPG.
+
+Baseado em RoleAttributesModifierEnum do cliente.
+Cada atributo possui 3 variações:
+- ADD_BASE_VALUE: Valor base do equipamento (afetado por EnhanceLevel)
+- ADD_RATE: Porcentagem que multiplica o valor base do jogador
+- ADD_EXTRA_VALUE: Valor flat adicional
+
+Fórmula: valor_final = base_jogador × (1 + rate) + base_equip + extra_equip
+"""
+
+
+class AttributeCode:
+    """Códigos de atributos do jogo."""
+    
+    # Atributos principais (apenas ADD_VALUE)
+    ALL_ATTR_ADD_VALUE = 90
+    
+    # Força
+    STRENGTH_ADD_VALUE = 100
+    STRENGTH_ADD_RATE = 101
+    
+    # Sabedoria
+    WISDOM_ADD_VALUE = 110
+    WISDOM_ADD_RATE = 111
+    
+    # Agilidade
+    AGILITY_ADD_VALUE = 120
+    AGILITY_ADD_RATE = 121
+    
+    # Vitalidade
+    VITALITY_ADD_VALUE = 130
+    VITALITY_ADD_RATE = 131
+    
+    # Ataque Físico
+    PHYSICAL_ATTACK_ADD_BASE_VALUE = 140
+    PHYSICAL_ATTACK_ADD_RATE = 141
+    PHYSICAL_ATTACK_ADD_EXTRA_VALUE = 142
+    
+    # Ataque Mágico
+    MAGIC_ATTACK_ADD_BASE_VALUE = 150
+    MAGIC_ATTACK_ADD_RATE = 151
+    MAGIC_ATTACK_ADD_EXTRA_VALUE = 152
+    
+    # Defesa Física
+    PHYSICAL_DEFENSE_ADD_BASE_VALUE = 160
+    PHYSICAL_DEFENSE_ADD_RATE = 161
+    PHYSICAL_DEFENSE_ADD_EXTRA_VALUE = 162
+    
+    # Defesa Mágica
+    MAGIC_DEFENSE_ADD_BASE_VALUE = 170
+    MAGIC_DEFENSE_ADD_RATE = 171
+    MAGIC_DEFENSE_ADD_EXTRA_VALUE = 172
+    
+    # Redução de Dano (apenas ADD_VALUE)
+    PHYSICAL_REDUCE_RATE_ADD_VALUE = 180
+    PHYSICAL_REDUCE_ADD_VALUE = 181
+    MAGIC_REDUCE_RATE_ADD_VALUE = 190
+    MAGIC_REDUCE_ADD_VALUE = 191
+    
+    # HP Máximo
+    HP_MAX_ADD_BASE_VALUE = 200
+    HP_MAX_ADD_RATE = 201
+    HP_MAX_ADD_EXTRA_VALUE = 202
+    
+    # MP Máximo
+    MP_MAX_ADD_BASE_VALUE = 210
+    MP_MAX_ADD_RATE = 211
+    MP_MAX_ADD_EXTRA_VALUE = 212
+    
+    # SP Máximo
+    SP_MAX_ADD_BASE_VALUE = 220
+    SP_MAX_ADD_RATE = 221
+    SP_MAX_ADD_EXTRA_VALUE = 222
+    
+    # Acerto (Hit)
+    HIT_VALUE_ADD_VALUE = 230
+    HIT_RATE_ADD_VALUE = 231
+    
+    # Esquiva (Dodge)
+    DODGE_VALUE_ADD_VALUE = 240
+    DODGE_RATE_ADD_VALUE = 241
+    
+    # Crítico
+    CRIT_VALUE_ADD_VALUE = 250
+    CRIT_RATE_ADD_VALUE = 251
+    
+    # Sorte
+    LUCKY_ATTACK_ADD_VALUE = 260
+    LUCKY_DEFENSE_ADD_VALUE = 261
+    
+    # Dano Crítico
+    CRIT_DAMAGE_MUL_ADD_VALUE = 270
+    
+    # Tenacidade
+    TOUGH_VALUE_ADD_VALUE = 280
+    
+    # Penetração
+    PIERCE_ATTACK_ADD_VALUE = 290
+    PIERCE_DEFENSE_ADD_VALUE = 291
+    
+    # Velocidade de Cast/Sing
+    CAST_SPEED_ADD_RATE = 300
+    SING_SPEED_ADD_RATE = 310
+    SING_TIME_REDUCEMS_ADD_VALUE = 311
+    
+    # Velocidade de Movimento
+    WALK_SPEED_ADD_VALUE = 320
+    WALK_SPEED_ADD_RATE = 321
+    WALK_SPEED_SET_TO = 322
+    
+    # Regeneração
+    HP_HEAL_VALUE_ADD_VALUE = 330
+    MP_HEAL_VALUE_ADD_VALUE = 340
+    SP_HEAL_VALUE_ADD_VALUE = 350
+    
+    # Cura
+    CURE_VALUE_ADD_VALUE = 360
+    CURE_VALUE_ADD_RATE = 361
+    CURE_VALUE_ADD_EXTRA_VALUE = 362
+    
+    # Outros
+    WEAKNESS_TYPE_SET_TO = 370
+    ROLE_EXP_MUL_ADD_VALUE = 380
+    PET_EXP_MUL_ADD_VALUE = 390
+    ITEM_DROP_CHANCE_MUL_ADD_VALUE = 400
+    
+    # Conversão de Dano
+    PHYSICAL_REDUCE_TO_HP_RATE_ADD_VALUE = 410
+    MAGIC_REDUCE_TO_HP_RATE_ADD_VALUE = 420
+    PHYSICAL_REDUCE_TO_MP_RATE_ADD_VALUE = 430
+    MAGIC_REDUCE_TO_MP_RATE_ADD_VALUE = 440
+    
+    # Elemento 1 - Ataque
+    ELEMENT1_ATTACK_ADD_BASE_VALUE = 450
+    ELEMENT1_ATTACK_ADD_RATE = 451
+    ELEMENT1_ATTACK_ADD_EXTRA_VALUE = 452
+    
+    # Elemento 2 - Ataque
+    ELEMENT2_ATTACK_ADD_BASE_VALUE = 460
+    ELEMENT2_ATTACK_ADD_RATE = 461
+    ELEMENT2_ATTACK_ADD_EXTRA_VALUE = 462
+    
+    # Elemento 3 - Ataque
+    ELEMENT3_ATTACK_ADD_BASE_VALUE = 470
+    ELEMENT3_ATTACK_ADD_RATE = 471
+    ELEMENT3_ATTACK_ADD_EXTRA_VALUE = 472
+    
+    # Elemento 4 - Ataque
+    ELEMENT4_ATTACK_ADD_BASE_VALUE = 480
+    ELEMENT4_ATTACK_ADD_RATE = 481
+    ELEMENT4_ATTACK_ADD_EXTRA_VALUE = 482
+    
+    # Elemento 5 - Ataque
+    ELEMENT5_ATTACK_ADD_BASE_VALUE = 490
+    ELEMENT5_ATTACK_ADD_RATE = 491
+    ELEMENT5_ATTACK_ADD_EXTRA_VALUE = 492
+    
+    # Elemento 1 - Defesa
+    ELEMENT1_DEFENSE_ADD_BASE_VALUE = 500
+    ELEMENT1_DEFENSE_ADD_RATE = 501
+    ELEMENT1_DEFENSE_ADD_EXTRA_VALUE = 502
+    
+    # Elemento 2 - Defesa
+    ELEMENT2_DEFENSE_ADD_BASE_VALUE = 510
+    ELEMENT2_DEFENSE_ADD_RATE = 511
+    ELEMENT2_DEFENSE_ADD_EXTRA_VALUE = 512
+    
+    # Elemento 3 - Defesa
+    ELEMENT3_DEFENSE_ADD_BASE_VALUE = 520
+    ELEMENT3_DEFENSE_ADD_RATE = 521
+    ELEMENT3_DEFENSE_ADD_EXTRA_VALUE = 522
+    
+    # Elemento 4 - Defesa
+    ELEMENT4_DEFENSE_ADD_BASE_VALUE = 530
+    ELEMENT4_DEFENSE_ADD_RATE = 531
+    ELEMENT4_DEFENSE_ADD_EXTRA_VALUE = 532
+    
+    # Elemento 5 - Defesa
+    ELEMENT5_DEFENSE_ADD_BASE_VALUE = 540
+    ELEMENT5_DEFENSE_ADD_RATE = 541
+    ELEMENT5_DEFENSE_ADD_EXTRA_VALUE = 542
+    
+    # Aptidão (APT) - Sistema de Pets
+    ALL_APT_ADD_VALUE = 1000
+    ALL_APT_ADD_RATE = 1001
+    
+    STRENGTH_APT_ADD_VALUE = 1010
+    STRENGTH_APT_ADD_RATE = 1011
+    
+    WISDOM_APT_ADD_VALUE = 1020
+    WISDOM_APT_ADD_RATE = 1021
+    
+    AGILITY_APT_ADD_VALUE = 1030
+    AGILITY_APT_ADD_RATE = 1031
+    
+    VITALITY_APT_ADD_VALUE = 1040
+    VITALITY_APT_ADD_RATE = 1041
+    
+    # Sistema de Level Up
+    LVUP_ATTR_PT_ADD_VALUE = 1050
+    GROWTH_RATE_ADD_VALUE = 1060
+    LEARN_SKILL_CHANCE_MUL_ADD_VALUE = 1070
+    SUBDUE_MUL_ADD_VALUE = 1080
+    
+    # Absorção de Dano
+    DAMAGE_ABSORB_RATIO_ADD_VALUE = 1090
+    DAMAGE_ABSORB_MUL_ADD_VALUE = 1100
+
+
+# Aliases para facilitar uso
+AC = AttributeCode
