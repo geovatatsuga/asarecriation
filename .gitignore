@@ -54,3 +54,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 target/
+
+# Ferramentas locais
+.tools/**/*.zip
+repomix-output.*

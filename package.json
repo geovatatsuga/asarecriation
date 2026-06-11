@@ -1,0 +1,30 @@
+{
+  "name": "asarecriation",
+  "version": "1.0.0",
+  "description": "Python private server and reconstruction tooling for the Asa de Cristal Flash MMORPG.",
+  "scripts": {
+    "rg": ".\\.tools\\bin\\rg.cmd",
+    "fd": ".\\.tools\\bin\\fd.cmd",
+    "repomix": ".\\.tools\\bin\\repomix.cmd",
+    "repomix:tokens": ".\\.tools\\bin\\repomix.cmd --token-count-tree",
+    "repomix:pack": ".\\.tools\\bin\\repomix.cmd",
+    "test": "python -m unittest discover server_py/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geovatatsuga/asarecriation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/geovatatsuga/asarecriation/issues"
+  },
+  "homepage": "https://github.com/geovatatsuga/asarecriation#readme",
+  "devDependencies": {
+    "@vscode/ripgrep": "^1.18.0",
+    "repomix": "^1.14.1"
+  },
+  "private": true
+}
